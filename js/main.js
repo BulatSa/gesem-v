@@ -1,7 +1,7 @@
 /***********************
  отправка формы в php BEGIN
 ***********************/
-$(function($){
+$(function(){
 
 	$(".ajax-form").on("submit", function(event) {
 		var form = $(this);
@@ -65,7 +65,6 @@ $(function($){
 		}
 	});
 
-
 	var inputs = $('.input__text');
 
 	inputs.on('focus',function () {
@@ -95,7 +94,7 @@ $(function($){
 /***********************
 Input mask BEGIN
 ***********************/
-$(function($){
+$(function(){
 	$("input[type='tel']").mask("+7 (999) 999-99-99");
 });
 /***********************
@@ -172,7 +171,7 @@ $(function(){
 /***********************
  Прокрутка к секциям BEGIN
  ***********************/
-$(function($){
+$(function(){
 	$('.scrollto').on('click',function () {
 		var elementClick = $(this).attr("href");
 		var destination = $(elementClick).offset().top;
@@ -188,7 +187,7 @@ $(function($){
 /***********************
 Mob menu BEGIN
 ***********************/
-$(function($){
+$(function(){
 	$('.burger').on('click',function () {
 		$(this).toggleClass('active');
 		$('.mob-panel').toggleClass('active');
@@ -212,7 +211,7 @@ Mob menu END
 /***********************
 Partners-slider BEGIN
 ***********************/
-$(function($){
+$(function(){
 	$('.partners-slider').flickity({
 		prevNextButtons: false,
 		pageDots: false,
@@ -233,7 +232,7 @@ Partners-slider END
 /***********************
  Waypoints BEGIN
  ***********************/
-$(function($){
+$(function(){
 	$('.anim').waypoint(function () {
 		var elem = $(this.element);
 		elem.toggleClass('animated');
