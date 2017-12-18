@@ -1,0 +1,104 @@
+.burger{
+	width: 40px;
+	height: 30px;
+	position: fixed;
+	background: $orange;
+	top: 0;
+	right: 0;
+	z-index: 25;
+	align-items: center;
+	justify-content: center;
+	display: none;
+	cursor: pointer;
+	border-radius: 0 0 0 5px;
+	box-shadow: -1px 1px 3px 0 rgba(0,0,0,0.2);
+	@include res(l){
+		display: flex;
+	}
+	
+	figure{
+		width: 25px;
+		height: 2px;
+		background: #FFF;
+		position: relative;
+		transition: all 0.3s ease;
+		will-change: transform;
+		
+		&:before,&:after{
+			content: '';
+			width: 25px;
+			height: 2px;
+			background: #FFF;
+			position: absolute;
+			transition: all 0.3s ease;
+			will-change: transform;
+		}
+
+		&:before{
+			top: -6px;
+			left: 0;
+		}
+
+		&:after{
+			bottom: -6px;
+			left: 0;
+		}
+	}
+	
+	&.active{
+		figure{
+			background: $orange;
+			&:before{
+				transform: rotate(-45deg);
+				top: 0;
+			}
+			&:after{
+				transform: rotate(45deg);
+				bottom: 0;
+			}
+		}
+	}
+}
+
+
+.mob-panel{
+	display: none;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 180px;
+	height: 100%;
+	background: #f5f5f5;
+	z-index: 20;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	transform: translate3d(180px,0,0);
+	transition: all 0.4s ease;
+	box-shadow: inset 5px 0 10px 0 rgba(0,0,0,0.05);
+	pointer-events: none;
+	@include res(l){
+		display: block;
+	}
+
+	&.active{
+		transform: none;
+		pointer-events: all;
+	}
+
+	.head-nav{
+		width: 100%;
+		margin: 0;
+
+		ul{
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: flex-end;
+		}
+
+		a{
+			display: block;
+			margin: 0 0 10px 0;
+			padding: 10px 15px;
+		}
+	}
+}

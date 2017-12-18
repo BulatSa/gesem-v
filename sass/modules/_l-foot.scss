@@ -1,0 +1,21 @@
+.l-foot{
+	display: flex;
+	align-items: center;
+
+	.container-wide{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		@include res(s){
+			flex-direction: column;
+			padding: 20px 0;
+			text-align: center;
+		}
+	}
+
+	&__center{
+		@include res(s){
+			margin: 5px 0;
+		}
+	}
+}

@@ -1,0 +1,50 @@
+%link-black{
+	transition: all 0.3s ease;
+
+	&:hover{
+		color: $orange;
+	}
+}
+
+%paddings{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	@include res(xl){
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	@include res(l){
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	@include res(s){
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
+
+%paddings-bottom{
+	padding-bottom: 50px;
+	@include res(xl){
+		padding-bottom: 40px;
+	}
+	@include res(l){
+		padding-bottom: 30px;
+	}
+	@include res(s){
+		padding-bottom: 20px;
+	}
+}
+
+%paddings-top{
+	padding-top: 50px;
+	@include res(xl){
+		padding-top: 40px;
+	}
+	@include res(l){
+		padding-top: 30px;
+	}
+	@include res(s){
+		padding-top: 20px;
+	}
+}
