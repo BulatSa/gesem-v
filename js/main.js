@@ -112,7 +112,7 @@ function init_fancy() {
 		backFocus : false,
 		animationEffect: "zoom-in-out",
 		animationDuration : 300,
-		transitionEffect : "slide",
+		transitionEffect : "slide"
 	});
 	$('.fancy-map').fancybox({
 		toolbar: false,
@@ -120,7 +120,7 @@ function init_fancy() {
 		backFocus : false,
 		animationEffect: "zoom-in-out",
 		animationDuration : 300,
-		transitionEffect : "slide",
+		transitionEffect : "slide"
 	});
 }
 
