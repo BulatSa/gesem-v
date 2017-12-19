@@ -19,8 +19,8 @@
 $full_cross_size: 30px;
 $cross_size: 16px;
 $cross_weight: 2px;
-$cross_color: #000;
-$cross-color--hover: $orange;
+$cross_color: $orange;
+$cross-color--hover: #FFF;
 $cross-bg-color: #FFF;
 $cross-bg-color--hover: $orange;
 
@@ -31,7 +31,7 @@ $cross-bg-color--hover: $orange;
 	cursor: pointer;
 	transition: all 0.3s ease;
 	background-color: transparent;
-	border: 2px solid rgba(0,0,0,0.7);
+	border: 2px solid $orange;
 	width: $full_cross_size;
 	height: $full_cross_size;
 	border-radius: 50%;
@@ -41,7 +41,7 @@ $cross-bg-color--hover: $orange;
 	}
 
 	&:hover{
-		border: 2px solid $orange;
+		border: 2px solid #FFF;
 	}
 
 	&:before,&:after{

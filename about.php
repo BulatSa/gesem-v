@@ -1,19 +1,6 @@
 ﻿<?php include('header.php'); ?>
 
 
-<section class="breadcrumbs">
-	<div class="container">
-		<nav>
-			<ul>
-				<li><a href="/">Главная</a></li>
-				<li><a href="/about.php">О компании</a></li>
-				<li><a href="#">Клиенты</a></li>
-			</ul>
-		</nav>
-	</div>
-</section>
-
-
 <section class="s-page-header">
 	<div class="container">
 		<h1 class="h1">О компании</h1>

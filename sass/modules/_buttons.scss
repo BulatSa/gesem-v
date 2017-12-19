@@ -61,3 +61,16 @@ button::-moz-focus-inner {
 		height: 14px;
 	}
 }
+
+
+.btn--outline{
+	padding: 18px 30px;
+	background: transparent;
+	border: 2px solid $orange;
+	font-size: 12px;
+	transition: all 0.3s ease;
+
+	&:hover{
+		border-color: #000;
+	}
+}

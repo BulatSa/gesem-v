@@ -8,12 +8,14 @@
 	flex-wrap: wrap;
 }
 
+
 .logo{
 	position: relative;
 	width: calc(100% / 7);
 	border: 1px solid $grey-light;
 	margin: 0 -1px -1px 0;
 	z-index: 1;
+	overflow: hidden;
 	@include res(s){
 		width: calc(100% / 3);
 	}

@@ -89,3 +89,15 @@
 	</header>
 
 	<main class="l-main">
+
+		<section class="breadcrumbs">
+			<div class="container">
+				<nav>
+					<ul>
+						<li><a href="/">Главная</a></li>
+						<li><a href="/about.php">О компании</a></li>
+						<li><a href="#">Клиенты</a></li>
+					</ul>
+				</nav>
+			</div>
+		</section>
