@@ -5,7 +5,8 @@
 	max-width: 100%;
 	will-change: transform,opacity;
 	overflow: visible !important;
-	background: rgba(255,255,255,0.8);
+	background: url("../img/modal-bg.png") right top no-repeat #FFF;
+	background-size: auto 100%;
 
 	&__title{
 		margin-bottom: 0.3em;
@@ -29,8 +30,9 @@
 	}
 }
 
-.fancybox-bg{
-	background: #8c8e9a;
+.fancybox-is-open .fancybox-bg{
+	background: #000000;
+	opacity: 0.7;
 }
 
 .fancybox-close-small,.fancybox-slide--image .fancybox-close-small, .fancybox-slide--iframe .fancybox-close-small{

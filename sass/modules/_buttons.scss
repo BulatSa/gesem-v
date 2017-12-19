@@ -48,6 +48,9 @@ button::-moz-focus-inner {
 .btn--arrow{
 	width: 270px;
 	text-align: left;
+	@include res(xs){
+		width: 240px;
+	}
 	i{
 		position: absolute;
 		top: 0;

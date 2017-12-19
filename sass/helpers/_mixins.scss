@@ -17,31 +17,31 @@
 
 /// Иоконка закрытия модальных окон в виде креста.
 $full_cross_size: 30px;
-$cross_size: 14px;
+$cross_size: 16px;
 $cross_weight: 2px;
-$cross_color: $orange;
-$cross-color--hover: #FFF;
+$cross_color: #000;
+$cross-color--hover: $orange;
 $cross-bg-color: #FFF;
 $cross-bg-color--hover: $orange;
 
 @mixin cross() {
 	position: absolute;
-	top: -$full_cross_size/2;
-	right: -$full_cross_size/2;
+	top: -$full_cross_size;
+	right: -$full_cross_size;
 	cursor: pointer;
 	transition: all 0.3s ease;
-	background-color: $cross-bg-color;
+	background-color: transparent;
+	border: 2px solid rgba(0,0,0,0.7);
 	width: $full_cross_size;
 	height: $full_cross_size;
 	border-radius: 50%;
-	border: none;
 	@include res(s){
 		top: 5px;
 		right: 5px;
 	}
 
 	&:hover{
-		background-color: $cross-bg-color--hover;
+		border: 2px solid $orange;
 	}
 
 	&:before,&:after{

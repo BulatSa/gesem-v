@@ -1,0 +1,55 @@
+.breadcrumbs{
+	position: relative;
+	z-index: 2;
+	margin-top: 20px;
+	margin-bottom: -40px;
+	@include res(xs){
+		margin-top: 0;
+	}
+
+   ul{
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+		text-align: center;
+
+      li{
+         display: block;
+         position: relative;
+			line-height: 1;
+			margin-bottom: 8px;
+
+         a{
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+				border-bottom: 1px solid currentColor;
+				transition: color 0.3s ease;
+				padding-bottom: 2px;
+				@extend %link-black;
+				@include res(xs){
+					font-size: 10px;
+				}
+         }
+
+         &:after{
+            content: "\e90c";
+            font-family: $font-icons;
+				text-transform: none;
+				font-size: 10px;
+				margin: 0 10px;
+         }
+
+			&:last-child{
+				a{
+					border-bottom: none;
+					pointer-events: none;
+				}
+				&:after{
+					display: none;
+				}
+			}
+      }
+   }
+}

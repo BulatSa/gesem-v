@@ -1,11 +1,23 @@
 ﻿<?php include('header.php'); ?>
 
 
-<section class="s-about-top">
+<section class="breadcrumbs">
+	<div class="container">
+		<nav>
+			<ul>
+				<li><a href="/">Главная</a></li>
+				<li><a href="/about.php">О компании</a></li>
+				<li><a href="#">Клиенты</a></li>
+			</ul>
+		</nav>
+	</div>
+</section>
+
+
+<section class="s-page-header">
 	<div class="container">
 		<h1 class="h1">О компании</h1>
-		<p class="lead-big">В наши дни деловой мир требует надежность поставщиков и высокий профессионализм их специалистов, ибо очень часто приходится
-			доверять и полагаться именно на них выполняя свою работу.</p>
+		<p class="lead-big">В наши дни деловой мир требует надежность поставщиков и высокий профессионализм их специалистов, ибо очень часто приходится доверять и полагаться именно на них выполняя свою работу.</p>
 	</div>
 </section>
 
@@ -47,6 +59,8 @@
 			<img src="/img/about/partners/1.png" alt="1">
 		</div>
 	</div>
+
+	<a href="/clients.php" class="btn btn--orange">все клиенты</a>
 </section>
 
 

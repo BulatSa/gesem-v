@@ -1,22 +1,3 @@
-//s-about-top
-.s-about-top{
-	padding-top: 20px;
-	text-align: center;
-	@extend %paddings-bottom;
-
-	.h1{
-		margin-bottom: 0.6em;
-	}
-
-	.lead-big{
-		max-width: 640px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-}
-//s-about-top
-
-
 //s-about-partners
 .s-about-partners{
 	@extend %paddings;
