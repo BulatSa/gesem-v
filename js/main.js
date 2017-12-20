@@ -213,16 +213,22 @@ Mob menu END
 Partners-slider BEGIN
 ***********************/
 $(function(){
-	$('.partners-slider').flickity({
+	var logo_slider = $('.logos-slider').flickity({
+		cellSelector: '.logo',
 		prevNextButtons: false,
 		pageDots: false,
 		accessibility: false,
 		contain: true,
 		imagesLoaded: true,
 		percentPosition: true,
-		freeScroll: true,
-		wrapAround: true,
-		freeScrollFriction: 0.15
+		wrapAround: true
+	});
+
+	logo_slider.on( 'staticClick.flickity', function( event, pointer, cellElement, cellIndex ) {
+		if (!cellElement) {
+			return;
+		}
+		$(cellElement).find('.fancy').trigger('click');
 	});
 });
 /***********************
@@ -252,7 +258,7 @@ Counters BEGIN
 $(window).on('load',function () {
 	var myCounters = $('.js-counter');
 	myCounters.numberAnimate({
-		animationTimes: [100, 1500, 100]
+		animationTimes: [300, 1500, 100]
 	});
 	myCounters.waypoint(function () {
 		var this_counter = $(this.element);

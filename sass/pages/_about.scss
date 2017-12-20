@@ -4,92 +4,120 @@
 
 	.h3{
 		text-align: center;
-	}
-}
-
-.logo-slide{
-	width: calc(100% / 9);
-	padding: 10px;
-	height: 150px;
-	text-align: center;
-	@include res(l){
-		width: calc(100% / 6);
-	}
-	@include res(s){
-		width: calc(100% / 5);
-	}
-	@include res(xs){
-		width: calc(100% / 4);
-		height: 100px;
+		margin-bottom: 1em;
 	}
 
-	img{
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%,-50%);
-		max-width: calc(100% - 20px);
-		height: auto;
+	.logos-slider{
+		margin-bottom: 40px;
 	}
 }
 //s-about-partners
 
 
+//logos-slider
+.logos-slider{
+	padding: 5px 0;
+
+	.logo{
+		margin-bottom: 0;
+	}
+}
+//logos-slider
+
+
 //s-about-dir
 .s-about-dir{
-	padding-top: 120px;
-	background: url("../img/about/dir-bg.jpg") center top no-repeat;
-	min-height: 700px;
-	@include res(m){
-		padding-bottom: 340px;
-		background: url("../img/about/dir-bg.jpg") center bottom no-repeat;
-		background-size: auto 300px;
-		padding-top: 20px;
+	@extend %paddings;
+	overflow: hidden;
+
+	.row{
+		align-items: center;
 	}
 
 	.h2{
-		max-width: 580px;
-		margin-bottom: 0.4em;
-		@include res(m){
-			max-width: 100%;
-		}
+		margin-bottom: 0.8em;
 	}
 
 	.lead{
-		width: 500px;
-		max-width: 40%;
-		margin-bottom: 30px;
-		@include res(m){
-			max-width: 100%;
+		margin-bottom: 50px;
+		@include res(s){
+			margin-bottom: 20px;
 		}
 	}
 
-	&__footer{
-		position: relative;
-		img{
-			position: absolute;
-			bottom: -25px;
-			left: 200px;
-			z-index: 1;
-			@include res(l){
-				width: 140px;
-				height: auto;
-			}
-			@include res(m){
-				left: 0;
-				bottom: -45px;
-			}
+	&.anim{
+		.h2{
+			opacity: 0;
+			transform: translate3d(-80px,0,0);
+			transition: all 1s ease;
 		}
-
+		.lead{
+			opacity: 0;
+			transform: translate3d(-80px,0,0);
+			transition: all 1s ease;
+		}
 		.h4{
-			position: relative;
-			z-index: 2;
-			margin-bottom: 0.3em;
+			opacity: 0;
+			transform: translate3d(-80px,0,0);
+			transition: all 1s ease;
 		}
-		span{
-			position: relative;
-			z-index: 2;
+		.man-frame__stripes{
+			opacity: 0;
+			transform: translate3d(-60px,0,0);
+			transition: all 1s ease;
 		}
+		.man-frame__man{
+			//opacity: 0;
+			transform: translate3d(40px,0,0);
+			transition: all 1s ease;
+		}
+	}
+	
+	&.animated{
+		.h2,.lead,.h4,.man-frame__stripes,.man-frame__man{
+			opacity: 1;
+			transform: none;
+			transition: all 1s ease;
+		}
+		.lead{
+			transition: all 1s ease 0.2s;
+		}
+		.h4{
+			transition: all 1s ease 0.4s;
+		}
+	}
+}
+
+.man-frame{
+	position: relative;
+	height: 702px;
+	@include res(l){
+		height: 500px;
+	}
+	@include res(s){
+		height: 350px;
+		margin-top: 30px;
+	}
+	@include res(xs){
+		height: 250px;
+	}
+
+	&__stripes{
+		display: block;
+		position: absolute;
+		left: 100px;
+		bottom: 0;
+		max-height: 100%;
+		width: auto;
+	}
+
+	&__man{
+		display: block;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		max-height: 100%;
+		width: auto;
 	}
 }
 //s-about-dir
@@ -97,14 +125,7 @@
 
 //s-about-preims
 .s-about-preims{
-	padding-top: 100px;
-	@extend %paddings-bottom;
-	@include res(xl){
-		padding-top: 80px;
-	}
-	@include res(l){
-		padding-top: 50px;
-	}
+	@extend %paddings;
 
 	.h1{
 		text-align: center;
@@ -121,23 +142,70 @@
 	align-items: center;
 	@include res(s){
 		min-height: initial;
+		padding: 30px 0;
 	}
 
-	&:hover{
+	&.anim{
+		&:before{
+			transition: all 1s ease;
+			transform-origin: left center;
+			transform: scale3d(0,1,1);
+		}
 		.about-preim__bg{
-			transform: translate3d(-50%,0,0) scale(1.05);
+			transition: all 1s ease;
+			transform: scale3d(1.1,1.1,1);
+		}
+		.about-preim__num{
+			transition: all 0.3s ease;
+			transform: translate3d(-50px,0,0);
+			opacity: 0;
+		}
+		.about-preim__content{
+			transition: all 0.3s ease;
+			transform: translate3d(-80px,0,0);
+			opacity: 0;
+		}
+	}
+
+	&.animated{
+		&:before{
+			transform: none;
+		}
+		.about-preim__bg{
+			transform: none;
+		}
+		.about-preim__num{
+			transition: all 1s ease 0.3s;
+			opacity: 1;
+			transform: none;
+		}
+		.about-preim__content{
+			transition: all 1s ease 0.3s;
+			opacity: 1;
+			transform: none;
 		}
 	}
 
 	&__bg{
 		height: 100%;
-		width: auto;
+		width: 100%;
 		position: absolute;
-		left: 50%;
-		transform: translate3d(-50%,0,0);
+		left: 0;
 		top: 0;
 		z-index: 1;
-		transition: all 2s ease;
+
+		&--1{
+			background: url("../img/about/preim-1.jpg") center center no-repeat;
+			background-size: cover;
+		}
+		&--2{
+			background: url("../img/about/preim-2.jpg") center center no-repeat;
+			background-size: cover;
+		}
+		&--3{
+			background: url("../img/about/preim-3.jpg") center center no-repeat;
+			background-size: cover;
+		}
 	}
 
 	&:before{
@@ -166,7 +234,8 @@
 	}
 
 	&__num{
-		font-weight: 300;
+		font-family: $font-title;
+		font-weight: 100;
 		font-size: 160px;
 		line-height: 1;
 		height: 160px;
@@ -177,7 +246,6 @@
 		margin: auto 0;
 		z-index: 3;
 		color: #FFF;
-		opacity: 0.3;
 		@include res(l){
 			font-size: 100px;
 			height: 100px;
@@ -187,7 +255,6 @@
 			display: block;
 			text-align: center;
 			position: relative;
-			opacity: 0.4;
 			font-size: 60px;
 			height: 60px;
 		}
@@ -195,7 +262,6 @@
 			font-size: 40px;
 			height: 40px;
 			margin-bottom: 10px;
-			opacity: 0.7;
 		}
 	}
 }
@@ -234,6 +300,7 @@
 	margin-bottom: 60px;
 	@include res(m){
 		flex-wrap: wrap;
+		justify-content: center;
 	}
 	@include res(xs){
 		margin-bottom: 20px;
@@ -242,28 +309,36 @@
 
 .fact{
 	text-align: left;
-	width: 230px;
 	margin-bottom: 30px;
 	flex-shrink: 1;
 	padding: 0 10px;
 	@include res(m){
 		width: 50%;
 		padding: 0 5px;
+		text-align: center;
 	}
-	@include res(xs){
+	@include res(s){
 		width: 100%;
 		padding: 0;
 		text-align: center;
 	}
 
 	&__img{
-		height: 50px;
+		height: 70px;
 		margin-bottom: 10px;
 		display: flex;
 		align-items: flex-end;
 		@include res(xs){
 			justify-content: center;
 			height: auto;
+		}
+
+		img{
+			display: block;
+			@include res(m){
+				margin-left: auto;
+				margin-right: auto;
+			}
 		}
 	}
 

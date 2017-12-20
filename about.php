@@ -4,66 +4,88 @@
 <section class="s-page-header">
 	<div class="container">
 		<h1 class="h1">О компании</h1>
-		<p class="lead-big">В наши дни деловой мир требует надежность поставщиков и высокий профессионализм их специалистов, ибо очень часто приходится доверять и полагаться именно на них выполняя свою работу.</p>
+		<p class="lead-big">Мы устанавливаем и обслуживаем комплексное дополнительное оборудование от премиальных поставщиков на все виды тяжелой техники. Берёмся за проекты любой сложности в России и СНГ.</p>
 	</div>
 </section>
 
 
 <section class="s-about-partners">
-	<p class="h3">Нам доверяют</p>
-	<div class="partners-slider">
-		<div class="logo-slide">
-			<img src="/img/about/partners/1.png" alt="1">
+	<div class="container-wide">
+		<p class="h3">Нам доверяют</p>
+
+		<div class="logos-slider">
+			<div class="logo">
+				<img src="/img/logo-square.png" alt="" class="logo__square">
+				<img class="logo__img" src="/img/partners/1.png" alt="1">
+			</div>
+			<div class="logo">
+				<img src="/img/logo-square.png" alt="" class="logo__square">
+				<img class="logo__img" src="/img/partners/2.png" alt="1">
+			</div>
+			<div class="logo">
+				<img src="/img/logo-square.png" alt="" class="logo__square">
+				<img class="logo__img" src="/img/partners/3.png" alt="1">
+			</div>
+			<div class="logo">
+				<img src="/img/logo-square.png" alt="" class="logo__square">
+				<img class="logo__img" src="/img/partners/4.png" alt="1">
+			</div>
+			<div class="logo">
+				<img src="/img/logo-square.png" alt="" class="logo__square">
+				<img class="logo__img" src="/img/partners/5.png" alt="1">
+			</div>
+			<div class="logo">
+				<img src="/img/logo-square.png" alt="" class="logo__square">
+				<img class="logo__img" src="/img/partners/6.png" alt="1">
+			</div>
+			<div class="logo">
+				<img src="/img/logo-square.png" alt="" class="logo__square">
+				<img class="logo__img" src="/img/partners/7.png" alt="1">
+			</div>
+			<div class="logo">
+				<img src="/img/logo-square.png" alt="" class="logo__square">
+				<img class="logo__img" src="/img/partners/8.png" alt="1">
+			</div>
+			<div class="logo">
+				<img src="/img/logo-square.png" alt="" class="logo__square">
+				<img class="logo__img" src="/img/partners/9.png" alt="1">
+			</div>
+			<div class="logo">
+				<img src="/img/logo-square.png" alt="" class="logo__square">
+				<img class="logo__img" src="/img/partners/10.png" alt="1">
+			</div>
+			<div class="logo">
+				<img src="/img/logo-square.png" alt="" class="logo__square">
+				<img class="logo__img" src="/img/partners/11.png" alt="1">
+			</div>
+			<div class="logo">
+				<img src="/img/logo-square.png" alt="" class="logo__square">
+				<img class="logo__img" src="/img/partners/12.png" alt="1">
+			</div>
 		</div>
-		<div class="logo-slide">
-			<img src="/img/about/partners/1.png" alt="1">
-		</div>
-		<div class="logo-slide">
-			<img src="/img/about/partners/1.png" alt="1">
-		</div>
-		<div class="logo-slide">
-			<img src="/img/about/partners/1.png" alt="1">
-		</div>
-		<div class="logo-slide">
-			<img src="/img/about/partners/1.png" alt="1">
-		</div>
-		<div class="logo-slide">
-			<img src="/img/about/partners/1.png" alt="1">
-		</div>
-		<div class="logo-slide">
-			<img src="/img/about/partners/1.png" alt="1">
-		</div>
-		<div class="logo-slide">
-			<img src="/img/about/partners/1.png" alt="1">
-		</div>
-		<div class="logo-slide">
-			<img src="/img/about/partners/1.png" alt="1">
-		</div>
-		<div class="logo-slide">
-			<img src="/img/about/partners/1.png" alt="1">
-		</div>
-		<div class="logo-slide">
-			<img src="/img/about/partners/1.png" alt="1">
+
+		<div class="content-center">
+			<a href="/patners.php" class="btn btn--outline">Смотреть еще</a>
 		</div>
 	</div>
 
-	<a href="/clients.php" class="btn btn--orange">все клиенты</a>
-	<a href="/patners.php" class="btn btn--orange">все partners</a>
 </section>
 
 
-<section class="s-about-dir" id="s-about-dir">
+<section class="s-about-dir anim" id="s-about-dir">
 	<div class="container">
-		<p class="h2">Gesem — надежный партнер</p>
-		<p class="lead">Мы успешно зарекомендовали себя среди крупнейших компаний в горнодобывающей отрасли, в строительстве и в лесном деле. Все
-			работы предлагаемые нашей компанией осуществляются квалифицированными специалистами с использованием оригинальных запасных
-			частей рекомендованных производителями техники, а также качественными запасными частями производимыми для рынка запасных
-			частей.</p>
-		<div class="s-about-dir__footer">
-			<img src="/img/about/dir-podpis.png" alt="1">
-			<p class="h4">Баширов
-				<br>Андрей Алексеевич</p>
-			<span>Генеральный директор</span>
+		<div class="row">
+			<div class="grid-5 grid-12_s">
+				<p class="h2">Наша команда</p>
+				<p class="lead">Мы любим своё дело. Проходим тренинги и обучаемся не только в РФ, но и за рубежом. Мониторим рынок и выбираем поставщиков с оригинальным оборудованием. Умеем работать на долгосрочную перспективу. По опыту знаем как важно вовремя отреагировать на запрос, сократить сроки поставки, установки и сэкономить бюджет.</p>
+				<p class="h4">С уважением, команда GESEM</p>
+			</div>
+			<div class="grid-7 grid-12_s">
+				<div class="man-frame">
+					<img src="/img/about/stripes.jpg" alt="stripes" class="man-frame__stripes">
+					<img src="/img/about/man.png" alt="stripes" class="man-frame__man">
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
@@ -74,40 +96,35 @@
 		<p class="h1">3 ключевых преимущества</p>
 	</div>
 
-	<div class="about-preim">
-		<img src="/img/about/preim-1.jpg" alt="1" class="about-preim__bg">
+	<div class="about-preim anim">
+		<div class="about-preim__bg about-preim__bg--1"></div>
 		<div class="container">
 			<span class="about-preim__num">01</span>
 			<div class="about-preim__content">
-				<p class="h2">Ощутимая разница</p>
-				<p class="lead">Мы ориентированы на нужды наших клиентов, поэтому наши знания и богатый опыт позволят быстро и успешно решить любые поставленные
-					перед нами задачи разностороннего характера: технологические, интеллектуальные и экономические. Существует много решений,
-					мы поможем найти для Вас правильное!</p>
+				<p class="h2">Приоритет</p>
+				<p class="lead">Нам важно, чтобы оборудование, которое мы установили не стояло “для галочки”, а работало. Система пожаротушения должна защищать технику от возгорания, смазка - продлевать ей жизнь, быстрая заправка - экономить время. Всё должно работать. Поэтому мы обучаем персонал, даём рекомендации, а иногда звоним и интересуемся состоянием оборудования.</p>
 			</div>
 		</div>
 	</div>
 
-	<div class="about-preim">
-		<img src="/img/about/preim-2.jpg" alt="1" class="about-preim__bg">
+	<div class="about-preim anim">
+		<div class="about-preim__bg about-preim__bg--2"></div>
 		<div class="container">
 			<span class="about-preim__num">02</span>
 			<div class="about-preim__content">
 				<p class="h2">Высокие стандарты</p>
-				<p class="lead">Корпоративная культура нашей компании обладает высокими ценностями ориентированными на профессионализм и долгосрочные
-					отношения с клиентами. Поэтому начав работу с нами, заказав услугу или приобретая товар Вы убедитесь в этом сразу.</p>
+				<p class="lead">Мы работаем с поставщиками из премиального сегмента. Да, это дорого. Но мы готовы платить за качество, которое проверили сами. Мы выделяем ресурсы на обучение мастеров. Да, это затратно. Но благодаря этому они лучшие в своём деле. Мы выстраиваем отношения с клиентами на основе доверия и дружелюбия. Да, это непросто. Но по-другому нам не интересно.</p>
 			</div>
 		</div>
 	</div>
 
-	<div class="about-preim">
-		<img src="/img/about/preim-3.jpg" alt="1" class="about-preim__bg">
+	<div class="about-preim anim">
+		<div class="about-preim__bg about-preim__bg--3"></div>
 		<div class="container">
 			<span class="about-preim__num">03</span>
 			<div class="about-preim__content">
 				<p class="h2">Обслуживание</p>
-				<p class="lead">Обслуживание наших клиентов включает в себя предоставление профессиональных консультаций, проектирование и разработку
-					систем для Вашего применения, выезд специалистов к Вам на объект, планирование графика поставки, а также обучение персонала
-					Вашей компании.</p>
+				<p class="lead">Обслуживание начинается с консультации. Когда основные договоренности согласованы, мы проектируем и разрабатываем систему, применимую на вашем предприятии. Потом наш специалист выезжает на объект, прописывает график поставки оборудования и проводит обучение вашего персонала.</p>
 			</div>
 		</div>
 	</div>
@@ -117,7 +134,7 @@
 
 <section class="s-about-facts">
 	<div class="container">
-		<p class="h1">За 20 лет на рынке мы достигли:</p>
+		<p class="h1">За 10 лет работы мы</p>
 	</div>
 
 	<div class="facts-block">
@@ -126,35 +143,27 @@
 			<div class="facts">
 				<div class="fact">
 					<div class="fact__img">
-						<img src="/img/about/fact-1.svg" alt="1" width="58" height="39">
+						<img src="/img/about/fact-1.svg" alt="1" width="105" height="54">
 					</div>
 					<strong>
-						<span class="js-counter" data-counter="1950">0009</span>+</strong>
+						<span class="js-counter" data-counter="100"></span>+</strong>
 					<span class="lead">постоянных клиентов</span>
 				</div>
 				<div class="fact">
 					<div class="fact__img">
-						<img src="/img/about/fact-2.svg" alt="1" width="59" height="39">
+						<img src="/img/about/fact-2.svg" alt="1" width="361" height="57">
 					</div>
 					<strong>
-						<span class="js-counter" data-counter="25300">00099</span>+</strong>
-					<span class="lead">сельскохозяйственного оборудования</span>
+						$<span class="js-counter" data-counter="100000000"></span>+</strong>
+					<span class="lead">общая сумма спасённой техники</span>
 				</div>
 				<div class="fact">
 					<div class="fact__img">
-						<img src="/img/about/fact-3.svg" alt="1" width="38" height="49">
+						<img src="/img/about/fact-3.svg" alt="1" width="145" height="69">
 					</div>
 					<strong>
-						<span class="js-counter" data-counter="15600">00099</span>+</strong>
-					<span class="lead">установленно пожарных систем</span>
-				</div>
-				<div class="fact">
-					<div class="fact__img">
-						<img src="/img/about/fact-4.svg" alt="1" width="47" height="50">
-					</div>
-					<strong>
-						<span class="js-counter" data-counter="280">009</span>+</strong>
-					<span class="lead">представителей по&nbsp;всей России</span>
+						<span class="js-counter" data-counter="5000"></span>+</strong>
+					<span class="lead">комплектов дополнительного<br>оборудования установлено</span>
 				</div>
 			</div>
 
@@ -171,43 +180,319 @@
 </section>
 
 
-<section class="s-about-clients">
-	<p class="h2">Нашими клиентами стали</p>
-	<div class="partners-slider">
-		<div class="logo-slide">
-			<img src="/img/about/clients/1.png" alt="1">
+<section class="s-about-partners">
+	<div class="container-wide">
+		<p class="h3">Наши клиенты</p>
+
+		<div class="logos-slider">
+
+			<div class="logo">
+				<img src="/img/logo-square.png" alt="1" class="logo__square">
+				<img src="/img/clients/1.png" alt="1" class="logo__img">
+				<span class="link-more fancy" data-src="#modal-client-1" data-fancybox="clients">Подробнее</span>
+			</div>
+			<div class="modal modal-client" id="modal-client-1">
+				<div class="modal__bg modal__bg--stripes"></div>
+				<div class="modal__content">
+					<div class="row">
+						<div class="grid-8 grid-12_xs">
+							<p class="h2 modal-client__title">ПАО «Полюс»</p>
+							<div class="user-content">
+								<p class="h4">Описание проекта</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</p>
+							</div>
+							<a href="#" class="btn btn--outline">Посмотреть весь проект</a>
+						</div>
+						<div class="grid-4 grid-12_xs modal-client__right">
+							<img src="/img/clients/1.png" alt="1" class="modal-client__logo">
+							<a href="/img/about/sert/1.jpg" class="doc fancy" title="Увеличить">
+								<figure class="doc__frame">
+									<img src="/img/about/sert/1.jpg" alt="1">
+								</figure>
+								<span><em>Исключительный подход к работе. Команда профессионалов в руки которых можно доверить тяжелую технику и ее обслуживание!</em></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="logo">
+				<img src="/img/logo-square.png" alt="1" class="logo__square">
+				<img src="/img/clients/2.png" alt="1" class="logo__img">
+				<span class="link-more fancy" data-fancybox="clients" data-src="#modal-client-2">Подробнее</span>
+			</div>
+			<div class="modal modal-client" id="modal-client-2">
+				<div class="modal__bg modal__bg--stripes"></div>
+				<div class="modal__content">
+					<div class="row">
+						<div class="grid-8 grid-12_xs">
+							<p class="h2 modal-client__title">ПАО «Полюс»</p>
+							<div class="user-content">
+								<p class="h4">Описание проекта</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</p>
+							</div>
+							<a href="#" class="btn btn--outline">Посмотреть весь проект</a>
+						</div>
+						<div class="grid-4 grid-12_xs modal-client__right">
+							<img src="/img/clients/1.png" alt="1" class="modal-client__logo">
+							<a href="/img/about/sert/1.jpg" class="doc fancy" title="Увеличить">
+								<figure class="doc__frame">
+									<img src="/img/about/sert/1.jpg" alt="1">
+								</figure>
+								<span><em>Исключительный подход к работе. Команда профессионалов в руки которых можно доверить тяжелую технику и ее обслуживание!</em></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="logo">
+				<img src="/img/logo-square.png" alt="1" class="logo__square">
+				<img src="/img/clients/1.png" alt="1" class="logo__img">
+				<span class="link-more fancy" data-src="#modal-client-1" data-fancybox="clients">Подробнее</span>
+			</div>
+			<div class="modal modal-client" id="modal-client-1">
+				<div class="modal__bg modal__bg--stripes"></div>
+				<div class="modal__content">
+					<div class="row">
+						<div class="grid-8 grid-12_xs">
+							<p class="h2 modal-client__title">ПАО «Полюс»</p>
+							<div class="user-content">
+								<p class="h4">Описание проекта</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</p>
+							</div>
+							<a href="#" class="btn btn--outline">Посмотреть весь проект</a>
+						</div>
+						<div class="grid-4 grid-12_xs modal-client__right">
+							<img src="/img/clients/1.png" alt="1" class="modal-client__logo">
+							<a href="/img/about/sert/1.jpg" class="doc fancy" title="Увеличить">
+								<figure class="doc__frame">
+									<img src="/img/about/sert/1.jpg" alt="1">
+								</figure>
+								<span><em>Исключительный подход к работе. Команда профессионалов в руки которых можно доверить тяжелую технику и ее обслуживание!</em></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="logo">
+				<img src="/img/logo-square.png" alt="1" class="logo__square">
+				<img src="/img/clients/2.png" alt="1" class="logo__img">
+				<span class="link-more fancy" data-fancybox="clients" data-src="#modal-client-2">Подробнее</span>
+			</div>
+			<div class="modal modal-client" id="modal-client-2">
+				<div class="modal__bg modal__bg--stripes"></div>
+				<div class="modal__content">
+					<div class="row">
+						<div class="grid-8 grid-12_xs">
+							<p class="h2 modal-client__title">ПАО «Полюс»</p>
+							<div class="user-content">
+								<p class="h4">Описание проекта</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</p>
+							</div>
+							<a href="#" class="btn btn--outline">Посмотреть весь проект</a>
+						</div>
+						<div class="grid-4 grid-12_xs modal-client__right">
+							<img src="/img/clients/1.png" alt="1" class="modal-client__logo">
+							<a href="/img/about/sert/1.jpg" class="doc fancy" title="Увеличить">
+								<figure class="doc__frame">
+									<img src="/img/about/sert/1.jpg" alt="1">
+								</figure>
+								<span><em>Исключительный подход к работе. Команда профессионалов в руки которых можно доверить тяжелую технику и ее обслуживание!</em></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="logo">
+				<img src="/img/logo-square.png" alt="1" class="logo__square">
+				<img src="/img/clients/1.png" alt="1" class="logo__img">
+				<span class="link-more fancy" data-src="#modal-client-1" data-fancybox="clients">Подробнее</span>
+			</div>
+			<div class="modal modal-client" id="modal-client-1">
+				<div class="modal__bg modal__bg--stripes"></div>
+				<div class="modal__content">
+					<div class="row">
+						<div class="grid-8 grid-12_xs">
+							<p class="h2 modal-client__title">ПАО «Полюс»</p>
+							<div class="user-content">
+								<p class="h4">Описание проекта</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</p>
+							</div>
+							<a href="#" class="btn btn--outline">Посмотреть весь проект</a>
+						</div>
+						<div class="grid-4 grid-12_xs modal-client__right">
+							<img src="/img/clients/1.png" alt="1" class="modal-client__logo">
+							<a href="/img/about/sert/1.jpg" class="doc fancy" title="Увеличить">
+								<figure class="doc__frame">
+									<img src="/img/about/sert/1.jpg" alt="1">
+								</figure>
+								<span><em>Исключительный подход к работе. Команда профессионалов в руки которых можно доверить тяжелую технику и ее обслуживание!</em></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="logo">
+				<img src="/img/logo-square.png" alt="1" class="logo__square">
+				<img src="/img/clients/2.png" alt="1" class="logo__img">
+				<span class="link-more fancy" data-fancybox="clients" data-src="#modal-client-2">Подробнее</span>
+			</div>
+			<div class="modal modal-client" id="modal-client-2">
+				<div class="modal__bg modal__bg--stripes"></div>
+				<div class="modal__content">
+					<div class="row">
+						<div class="grid-8 grid-12_xs">
+							<p class="h2 modal-client__title">ПАО «Полюс»</p>
+							<div class="user-content">
+								<p class="h4">Описание проекта</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</p>
+							</div>
+							<a href="#" class="btn btn--outline">Посмотреть весь проект</a>
+						</div>
+						<div class="grid-4 grid-12_xs modal-client__right">
+							<img src="/img/clients/1.png" alt="1" class="modal-client__logo">
+							<a href="/img/about/sert/1.jpg" class="doc fancy" title="Увеличить">
+								<figure class="doc__frame">
+									<img src="/img/about/sert/1.jpg" alt="1">
+								</figure>
+								<span><em>Исключительный подход к работе. Команда профессионалов в руки которых можно доверить тяжелую технику и ее обслуживание!</em></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="logo">
+				<img src="/img/logo-square.png" alt="1" class="logo__square">
+				<img src="/img/clients/1.png" alt="1" class="logo__img">
+				<span class="link-more fancy" data-src="#modal-client-1" data-fancybox="clients">Подробнее</span>
+			</div>
+			<div class="modal modal-client" id="modal-client-1">
+				<div class="modal__bg modal__bg--stripes"></div>
+				<div class="modal__content">
+					<div class="row">
+						<div class="grid-8 grid-12_xs">
+							<p class="h2 modal-client__title">ПАО «Полюс»</p>
+							<div class="user-content">
+								<p class="h4">Описание проекта</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</p>
+							</div>
+							<a href="#" class="btn btn--outline">Посмотреть весь проект</a>
+						</div>
+						<div class="grid-4 grid-12_xs modal-client__right">
+							<img src="/img/clients/1.png" alt="1" class="modal-client__logo">
+							<a href="/img/about/sert/1.jpg" class="doc fancy" title="Увеличить">
+								<figure class="doc__frame">
+									<img src="/img/about/sert/1.jpg" alt="1">
+								</figure>
+								<span><em>Исключительный подход к работе. Команда профессионалов в руки которых можно доверить тяжелую технику и ее обслуживание!</em></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="logo">
+				<img src="/img/logo-square.png" alt="1" class="logo__square">
+				<img src="/img/clients/2.png" alt="1" class="logo__img">
+				<span class="link-more fancy" data-fancybox="clients" data-src="#modal-client-2">Подробнее</span>
+			</div>
+			<div class="modal modal-client" id="modal-client-2">
+				<div class="modal__bg modal__bg--stripes"></div>
+				<div class="modal__content">
+					<div class="row">
+						<div class="grid-8 grid-12_xs">
+							<p class="h2 modal-client__title">ПАО «Полюс»</p>
+							<div class="user-content">
+								<p class="h4">Описание проекта</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</p>
+							</div>
+							<a href="#" class="btn btn--outline">Посмотреть весь проект</a>
+						</div>
+						<div class="grid-4 grid-12_xs modal-client__right">
+							<img src="/img/clients/1.png" alt="1" class="modal-client__logo">
+							<a href="/img/about/sert/1.jpg" class="doc fancy" title="Увеличить">
+								<figure class="doc__frame">
+									<img src="/img/about/sert/1.jpg" alt="1">
+								</figure>
+								<span><em>Исключительный подход к работе. Команда профессионалов в руки которых можно доверить тяжелую технику и ее обслуживание!</em></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="logo">
+				<img src="/img/logo-square.png" alt="1" class="logo__square">
+				<img src="/img/clients/1.png" alt="1" class="logo__img">
+				<span class="link-more fancy" data-src="#modal-client-1" data-fancybox="clients">Подробнее</span>
+			</div>
+			<div class="modal modal-client" id="modal-client-1">
+				<div class="modal__bg modal__bg--stripes"></div>
+				<div class="modal__content">
+					<div class="row">
+						<div class="grid-8 grid-12_xs">
+							<p class="h2 modal-client__title">ПАО «Полюс»</p>
+							<div class="user-content">
+								<p class="h4">Описание проекта</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</p>
+							</div>
+							<a href="#" class="btn btn--outline">Посмотреть весь проект</a>
+						</div>
+						<div class="grid-4 grid-12_xs modal-client__right">
+							<img src="/img/clients/1.png" alt="1" class="modal-client__logo">
+							<a href="/img/about/sert/1.jpg" class="doc fancy" title="Увеличить">
+								<figure class="doc__frame">
+									<img src="/img/about/sert/1.jpg" alt="1">
+								</figure>
+								<span><em>Исключительный подход к работе. Команда профессионалов в руки которых можно доверить тяжелую технику и ее обслуживание!</em></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="logo">
+				<img src="/img/logo-square.png" alt="1" class="logo__square">
+				<img src="/img/clients/2.png" alt="1" class="logo__img">
+				<span class="link-more fancy" data-fancybox="clients" data-src="#modal-client-2">Подробнее</span>
+			</div>
+			<div class="modal modal-client" id="modal-client-2">
+				<div class="modal__bg modal__bg--stripes"></div>
+				<div class="modal__content">
+					<div class="row">
+						<div class="grid-8 grid-12_xs">
+							<p class="h2 modal-client__title">ПАО «Полюс»</p>
+							<div class="user-content">
+								<p class="h4">Описание проекта</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</p>
+							</div>
+							<a href="#" class="btn btn--outline">Посмотреть весь проект</a>
+						</div>
+						<div class="grid-4 grid-12_xs modal-client__right">
+							<img src="/img/clients/1.png" alt="1" class="modal-client__logo">
+							<a href="/img/about/sert/1.jpg" class="doc fancy" title="Увеличить">
+								<figure class="doc__frame">
+									<img src="/img/about/sert/1.jpg" alt="1">
+								</figure>
+								<span><em>Исключительный подход к работе. Команда профессионалов в руки которых можно доверить тяжелую технику и ее обслуживание!</em></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
 		</div>
-		<div class="logo-slide">
-			<img src="/img/about/clients/1.png" alt="1">
-		</div>
-		<div class="logo-slide">
-			<img src="/img/about/clients/1.png" alt="1">
-		</div>
-		<div class="logo-slide">
-			<img src="/img/about/clients/1.png" alt="1">
-		</div>
-		<div class="logo-slide">
-			<img src="/img/about/clients/1.png" alt="1">
-		</div>
-		<div class="logo-slide">
-			<img src="/img/about/clients/1.png" alt="1">
-		</div>
-		<div class="logo-slide">
-			<img src="/img/about/clients/1.png" alt="1">
-		</div>
-		<div class="logo-slide">
-			<img src="/img/about/clients/1.png" alt="1">
-		</div>
-		<div class="logo-slide">
-			<img src="/img/about/clients/1.png" alt="1">
-		</div>
-		<div class="logo-slide">
-			<img src="/img/about/clients/1.png" alt="1">
-		</div>
-		<div class="logo-slide">
-			<img src="/img/about/clients/1.png" alt="1">
+
+		<div class="content-center">
+			<a href="/clients.php" class="btn btn--outline">Смотреть еще</a>
 		</div>
 	</div>
+
 </section>
 
 
