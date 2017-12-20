@@ -59,6 +59,8 @@ $(function(){
 						$.fancybox.open({src  : '#modal-thanks'});
 						setTimeout(function() {$.fancybox.close();},4500);
 						form[0].reset();
+						var inputs = form.find('.input');
+						inputs.removeClass('not_empty');
 					}
 				})
 			});
@@ -109,8 +111,7 @@ function init_fancy() {
 	$('.fancy').fancybox({
 		buttons : ['close'],
 		backFocus : false,
-		animationEffect: "zoom-in-out",
-		animationDuration : 300,
+		animationDuration : 500,
 		transitionEffect : "slide"
 	});
 	$('.fancy-map').fancybox({

@@ -17,13 +17,15 @@
 	<div class="container-wide">
 		<div class="logos">
 
-			<a href="#" class="logo fancy" data-src="#modal-client-1">
+			<a href="#" class="logo fancy" data-src="#modal-client-1" data-fancybox="clients">
 				<img src="/img/logo-square.png" alt="1" class="logo__square">
 				<img src="/img/clients/1.png" alt="1" class="logo__img">
 				<span class="link-more">Подробнее</span>
 			</a>
 			<div class="modal modal-client" id="modal-client-1">
-				<div class="row">
+				<div class="modal__bg modal__bg--stripes"></div>
+				<div class="modal__content">
+					<div class="row">
 					<div class="grid-8 grid-12_xs">
 						<p class="h2 modal-client__title">ПАО «Полюс»</p>
 						<div class="user-content">
@@ -34,7 +36,7 @@
 					</div>
 					<div class="grid-4 grid-12_xs modal-client__right">
 						<img src="/img/clients/1.png" alt="1" class="modal-client__logo">
-						<a href="/img/about/sert/1.jpg" class="doc fancy" title="Увеличить" data-fancybox="docs">
+						<a href="/img/about/sert/1.jpg" class="doc fancy" title="Увеличить">
 							<figure class="doc__frame">
 								<img src="/img/about/sert/1.jpg" alt="1">
 							</figure>
@@ -42,12 +44,37 @@
 						</a>
 					</div>
 				</div>
+				</div>
 			</div>
-			<a href="#" class="logo fancy" data-src="#modal-client-1">
+			<a href="#" class="logo fancy" data-src="#modal-client-2" data-fancybox="clients">
 				<img src="/img/logo-square.png" alt="1" class="logo__square">
 				<img src="/img/clients/2.png" alt="1" class="logo__img">
 				<span class="link-more">Подробнее</span>
 			</a>
+			<div class="modal modal-client" id="modal-client-2">
+				<div class="modal__bg modal__bg--stripes"></div>
+				<div class="modal__content">
+					<div class="row">
+						<div class="grid-8 grid-12_xs">
+							<p class="h2 modal-client__title">ПАО «Полюс»</p>
+							<div class="user-content">
+								<p class="h4">Описание проекта</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</p>
+							</div>
+							<a href="#" class="btn btn--outline">Посмотреть весь проект</a>
+						</div>
+						<div class="grid-4 grid-12_xs modal-client__right">
+							<img src="/img/clients/1.png" alt="1" class="modal-client__logo">
+							<a href="/img/about/sert/1.jpg" class="doc fancy" title="Увеличить">
+								<figure class="doc__frame">
+									<img src="/img/about/sert/1.jpg" alt="1">
+								</figure>
+								<span><em>Исключительный подход к работе. Команда профессионалов в руки которых можно доверить тяжелую технику и ее обслуживание!</em></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
 			<a href="#" class="logo fancy" data-src="#modal-client-1">
 				<img src="/img/logo-square.png" alt="1" class="logo__square">
 				<img src="/img/clients/3.png" alt="1" class="logo__img">
@@ -195,7 +222,7 @@
 
 
 <section class="s-footimg s-footimg--clients">
-	<img src="/img/clients/foot.jpg" alt="">
+	<img src="/img/clients/foot.jpg" alt="1">
 </section>
 
 

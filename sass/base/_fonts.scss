@@ -7,3 +7,13 @@
 	font-weight: bold;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: 'PF DinText Pro';
+	src: url('../fonts/subset-PFDinTextPro-ExtraThin.eot');
+	src: url('../fonts/subset-PFDinTextPro-ExtraThin.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/subset-PFDinTextPro-ExtraThin.woff') format('woff'),
+	url('../fonts/subset-PFDinTextPro-ExtraThin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}

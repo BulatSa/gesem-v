@@ -49,4 +49,18 @@
 			height: auto;
 		}
 	}
+
+	&--partners{
+		@include res(xs){
+			display: none;
+		}
+		.page-header-bg__left{
+			max-width: 30%;
+			height: auto;
+		}
+		.page-header-bg__right{
+			max-width: 40%;
+			height: auto;
+		}
+	}
 }

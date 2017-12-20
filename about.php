@@ -48,6 +48,7 @@
 	</div>
 
 	<a href="/clients.php" class="btn btn--orange">все клиенты</a>
+	<a href="/patners.php" class="btn btn--orange">все partners</a>
 </section>
 
 

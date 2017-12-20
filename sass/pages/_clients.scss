@@ -1,6 +1,5 @@
 .modal-client{
-	background: url("../img/modal-bg.png") right top no-repeat #FFF;
-	background-size: auto 100%;
+	background: transparent;
 	padding: 40px 60px;
 	width: 900px;
 	@include res(l){
