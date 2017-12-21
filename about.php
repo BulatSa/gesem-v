@@ -540,7 +540,7 @@
 		</div>
 
 		<div class="content-center">
-			<a href="/clients.php" class="btn btn--outline">Смотреть еще</a>
+			<a href="/news.php" class="btn btn--outline">Смотреть еще</a>
 		</div>
 
 	</div>
