@@ -145,24 +145,21 @@
 					<div class="fact__img">
 						<img src="/img/about/fact-1.svg" alt="1" width="105" height="54">
 					</div>
-					<strong>
-						<span class="js-counter" data-counter="100"></span>+</strong>
+					<strong><span class="js-counter" data-counter="100"></span>+</strong>
 					<span class="lead">постоянных клиентов</span>
 				</div>
 				<div class="fact">
 					<div class="fact__img">
 						<img src="/img/about/fact-2.svg" alt="1" width="361" height="57">
 					</div>
-					<strong>
-						$<span class="js-counter" data-counter="100000000"></span>+</strong>
+					<strong>$<span class="js-counter" data-counter="100000000"></span>+</strong>
 					<span class="lead">общая сумма спасённой техники</span>
 				</div>
 				<div class="fact">
 					<div class="fact__img">
 						<img src="/img/about/fact-3.svg" alt="1" width="145" height="69">
 					</div>
-					<strong>
-						<span class="js-counter" data-counter="5000"></span>+</strong>
+					<strong><span class="js-counter" data-counter="5000"></span>+</strong>
 					<span class="lead">комплектов дополнительного<br>оборудования установлено</span>
 				</div>
 			</div>
@@ -502,9 +499,9 @@
 			<a href="#" title="Посмотреть все новости">Новости</a>
 		</h2>
 
-		<div class="row">
+		<div class="timeline">
 
-			<div class="grid-6 grid-12_m">
+			<div class="timeline__item anim">
 				<article class="article-intro">
 					<time datetime="2017-10-23" class="article-intro__time">
 						<strong>29</strong>
@@ -512,47 +509,20 @@
 					</time>
 					<main class="article-intro__content">
 						<a href="#" class="h4 article-intro__title">Новостной заголовок предполагает строительство двух ниток мощностью</a>
-						<div class="user-content article-intro__preview-text">Проект предполагает строительство двух ниток мощностью по 15,75 миллиарда кубометров каждая. Первая нитка предназначена
-							для поставок газа турецким потребителям, ее планируется ввести в марте 2018 года;</div>
+						<div class="user-content article-intro__preview-text">Проект предполагает строительство двух ниток мощностью по 15,75 миллиарда кубометров каждая. Первая нитка предназначена для поставок газа турецким потребителям, ее планируется ввести в марте 2018 года;
+						</div>
+						<div class="article-intro__images">
+							<a href="/img/news-example.jpg" class="fancy" data-fancybox="id_news"><img src="/img/news-example.jpg" alt="1"></a>
+							<a href="/img/news-example.jpg" class="fancy" data-fancybox="id_news"><img src="/img/news-example.jpg" alt="1"></a>
+							<a href="/img/news-example.jpg" class="fancy" data-fancybox="id_news"><img src="/img/news-example.jpg" alt="1"></a>
+							<a href="/img/news-example.jpg" class="fancy" data-fancybox="id_news"><img src="/img/news-example.jpg" alt="1"></a>
+						</div>
 						<a href="#" class="link-more">Подробнее</a>
 					</main>
 				</article>
 			</div>
 
-			<div class="grid-6 grid-12_m">
-				<article class="article-intro">
-					<time datetime="2017-10-23" class="article-intro__time">
-						<strong>01</strong>
-						<small>10.2017</small>
-					</time>
-					<main class="article-intro__content">
-						<a href="#" class="h4 article-intro__title">Новостной заголовок</a>
-						<div class="user-content article-intro__preview-text">Проект предполагает строительство двух ниток мощностью по 15,75 миллиарда кубометров каждая. Первая нитка предназначена
-							для поставок газа турецким потребителям, ее планируется ввести в марте 2018 года; вторая — для газоснабжения стран
-							Южной и Юго-Восточной Европы. Первая нитка предназначена для поставок газа турецким потребителям, ее планируется ввести
-							в марте 2018 года; вторая — для газоснабжения стран Южной и Юго-Восточной Европы.</div>
-						<a href="#" class="link-more">Подробнее</a>
-					</main>
-				</article>
-			</div>
-
-			<div class="grid-6 grid-12_m">
-				<article class="article-intro">
-					<time datetime="2017-10-23" class="article-intro__time">
-						<strong>01</strong>
-						<small>10.2017</small>
-					</time>
-					<main class="article-intro__content">
-						<a href="#" class="h4 article-intro__title">Новостной заголовок</a>
-						<div class="user-content article-intro__preview-text">Проект предполагает строительство двух ниток мощностью по 15,75 миллиарда кубометров каждая. Первая нитка предназначена
-							для поставок газа турецким потребителям, ее планируется ввести в марте 2018 года; вторая — для газоснабжения стран
-							Южной и Юго-Восточной Европы.</div>
-						<a href="#" class="link-more">Подробнее</a>
-					</main>
-				</article>
-			</div>
-
-			<div class="grid-6 grid-12_m">
+			<div class="timeline__item anim">
 				<article class="article-intro">
 					<time datetime="2017-10-23" class="article-intro__time">
 						<strong>29</strong>
@@ -560,13 +530,17 @@
 					</time>
 					<main class="article-intro__content">
 						<a href="#" class="h4 article-intro__title">Новостной заголовок предполагает строительство двух ниток мощностью</a>
-						<div class="user-content article-intro__preview-text">Проект предполагает строительство двух ниток мощностью по 15,75 миллиарда кубометров каждая. Первая нитка предназначена
-							для поставок газа турецким потребителям, ее планируется ввести в марте 2018 года;</div>
+						<div class="user-content article-intro__preview-text">Проект предполагает строительство двух ниток мощностью по 15,75 миллиарда кубометров каждая. Первая нитка предназначена для поставок газа турецким потребителям, ее планируется ввести в марте 2018 года;
+						</div>
 						<a href="#" class="link-more">Подробнее</a>
 					</main>
 				</article>
 			</div>
 
+		</div>
+
+		<div class="content-center">
+			<a href="/clients.php" class="btn btn--outline">Смотреть еще</a>
 		</div>
 
 	</div>

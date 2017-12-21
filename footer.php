@@ -3,8 +3,8 @@
 <footer class="l-foot">
 	<div class="container-wide">
 		<div class="l-foot__left">© 2016 – 2017  GESEM</div>
-		<div class="l-foot__center"><a href="#" class="link">Политика конфиденциальности</a></div>
-		<div class="l-foot__right">Cайт разработан — <a href="https://penbrain.ru" target="_blank" class="link">Pen&Brain</a></div>
+		<div class="l-foot__center"><a href="#" class="link-orange">Политика конфиденциальности</a></div>
+		<div class="l-foot__right">Cайт разработан — <a href="https://penbrain.ru" target="_blank" class="link-orange">Pen&Brain</a></div>
 	</div>
 </footer>
 

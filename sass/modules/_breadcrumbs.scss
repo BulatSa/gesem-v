@@ -24,10 +24,8 @@
             font-size: 12px;
             text-transform: uppercase;
             letter-spacing: 0.1em;
-				border-bottom: 1px solid currentColor;
-				transition: color 0.3s ease;
+				@extend .link-bordered-black;
 				padding-bottom: 2px;
-				@extend %link-black;
 				@include res(xs){
 					font-size: 10px;
 				}

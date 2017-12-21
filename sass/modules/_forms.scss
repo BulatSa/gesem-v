@@ -171,13 +171,7 @@ textarea{
 		}
 
 		a{
-			transition: border 0.3s ease;
-			border-bottom: 1px solid transparent;
-			color: $orange;
-
-			&:hover{
-				border-bottom: 1px solid $orange;
-			}
+			@extend .link-orange;
 		}
 	}
 }

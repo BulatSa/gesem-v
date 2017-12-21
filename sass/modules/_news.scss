@@ -1,0 +1,252 @@
+.timeline{
+	position: relative;
+
+	&:before{
+		content: '';
+		width: 2px;
+		height: 100%;
+		background: $grey-light;
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		@include res(m){
+			margin: 0;
+			right: initial;
+			left: 0;
+		}
+	}
+
+	&__item{
+		display: block;
+		position: relative;
+		width: calc(50% - 24px);
+		border: 2px solid $grey-light;
+		padding: 35px 30px;
+		@include res(l){
+			padding: 20px 15px;
+		}
+		@include res(m){
+			width: calc(100% - 24px);
+			margin-left: 24px;
+			margin-bottom: 20px;
+		}
+
+		&:nth-child(2n){
+			min-height: 250px;
+			margin-top: -170px;
+			margin-bottom: -50px;
+			margin-left: calc(50% + 24px);
+			@include res(m){
+				margin-top: 0;
+				margin-bottom: 20px;
+				margin-left: 24px;
+				min-height: initial;
+			}
+
+			&:before{
+				right: initial;
+				left: -10px;
+				transform: rotate(-135deg);
+			}
+
+			&:after{
+				right: initial;
+				left: -31px;
+			}
+
+			&.anim{
+				transform-origin: left center;
+				transform: translate3d(-20px,0,0);
+			}
+		}
+
+		&:last-child{
+			margin-bottom: 0;
+			@include res(m){
+				margin-bottom: 20px;
+			}
+		}
+
+		&:before{
+			content: '';
+			width: 16px;
+			height: 16px;
+			background: #FFF;
+			border-top: 2px solid $grey-light;
+			border-right: 2px solid $grey-light;
+			transform: rotate(45deg);
+			position: absolute;
+			right: -10px;
+			top: 60px;
+			@include res(m){
+				right: initial;
+				left: -10px;
+				transform: rotate(-135deg);
+			}
+		}
+
+		&:after{
+			content: '';
+			width: 10px;
+			height: 2px;
+			background: $grey-light;
+			position: absolute;
+			top: 66px;
+			right: -31px;
+			@include res(m){
+				right: initial;
+				left: -31px;
+			}
+		}
+
+		&.anim{
+			opacity: 0;
+			transform: translate3d(20px,0,0);
+			transform-origin: right center;
+			transition: opacity 0.8s ease,transform 0.8s ease;
+			@include res(m){
+				transform-origin: left center;
+				transform: translate3d(-20px,0,0);
+			}
+			
+			&:after{
+				transition: all 0.2s ease;
+				transform: scale3d(0,1,1);
+			}
+		}
+
+		&.animated{
+			opacity: 1 !important;
+			transform: none !important;
+
+			&:after{
+				transition: all 0.3s ease 0.8s;
+				transform: none;
+			}
+		}
+	}
+}
+
+//article-intro
+.article-intro{
+	display: flex;
+	align-items: flex-start;
+	@include res(xs){
+		flex-direction: column;
+	}
+
+	&__time{
+		display: block;
+		text-align: center;
+		position: relative;
+		top: 5px;
+		margin-right: 30px;
+		flex-shrink: 0;
+		@include res(l){
+			top: 0;
+			margin-right: 20px;
+		}
+
+		strong{
+			display: block;
+			font-family: $font-title;
+			font-size: 55px;
+			line-height: 0.7;
+			font-weight: bold;
+			@include res(l){
+				font-size: 40px;
+				line-height: 1;
+			}
+			@include res(xs){
+				display: inline-block;
+				font-size: 24px;
+				margin-right: 5px;
+			}
+		}
+
+		small{
+			font-weight: bold;
+			font-size: 16px;
+			@include res(l){
+				font-size: 14px;
+			}
+		}
+	}
+
+	&__content{
+		width: 100%;
+		flex-shrink: 1;
+	}
+
+	&__title{
+		display: inline-block;
+		@extend %link-black;
+		margin-bottom: 0.3em;
+	}
+
+	&__preview-text{
+		font-size: 14px;
+	}
+
+	&__images{
+		margin-top: 15px;
+
+		.fancy{
+			display: inline-block;
+			position: relative;
+			margin: 0 10px 14px 0;
+			vertical-align: top;
+
+			img{
+				display: block;
+				position: relative;
+				z-index: 1;
+				height: 60px;
+			}
+
+			&:after{
+				content: '';
+				left: 0;
+				right: 0;
+				bottom: 0;
+				top: 0;
+				background: transparentize($orange,0.6);
+				position: absolute;
+				z-index: 2;
+				transition: all 0.2s ease;
+				opacity: 0;
+			}
+
+			&:before{
+				content: '+';
+				font-size: 24px;
+				width: 24px;
+				line-height: 1;
+				text-align: center;
+				height: 24px;
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				margin: auto;
+				z-index: 3;
+				color: #FFF;
+				transition: all 0.2s ease;
+				opacity: 0;
+			}
+
+			&:hover{
+				&:after,&:before{
+					opacity: 1;
+				}
+			}
+		}
+	}
+
+	.link-more{
+		margin-top: 10px;
+	}
+}
+//article-intro

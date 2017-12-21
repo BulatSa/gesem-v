@@ -17,10 +17,6 @@
 		padding-top: 30px;
 		padding-bottom: 30px;
 	}
-	@include res(s){
-		padding-top: 20px;
-		padding-bottom: 20px;
-	}
 }
 
 %paddings-bottom{
@@ -31,9 +27,6 @@
 	@include res(l){
 		padding-bottom: 30px;
 	}
-	@include res(s){
-		padding-bottom: 20px;
-	}
 }
 
 %paddings-top{
@@ -43,8 +36,5 @@
 	}
 	@include res(l){
 		padding-top: 30px;
-	}
-	@include res(s){
-		padding-top: 20px;
 	}
 }

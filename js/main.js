@@ -255,19 +255,35 @@ $(function(){
 /***********************
 Counters BEGIN
 ***********************/
-$(window).on('load',function () {
-	var myCounters = $('.js-counter');
-	myCounters.numberAnimate({
-		animationTimes: [300, 1500, 100]
-	});
-	myCounters.waypoint(function () {
+$(function($){
+	function number_to(element,from,to,duration){
+		var start = new Date().getTime();
+		setTimeout(function() {
+			var now = (new Date().getTime()) - start;
+			var progress = now / duration;
+			var result = Math.floor((to - from) * progress + from);
+			var text_to_show = progress < 1 ? result : to;
+			element.text(text_to_show);
+			if (progress < 1) setTimeout(arguments.callee, 10);
+		}, 100);
+	}
+
+	var counters = $('.js-counter');
+
+	counters.waypoint(function () {
 		var this_counter = $(this.element);
 		var this_num = this_counter.data('counter');
-		this_counter.numberAnimate('set', this_num);
+		if (!this_counter.hasClass('finished')){
+			number_to(this_counter,0,this_num,1500);
+		}
+		this_counter.addClass('finished');
 	}, {
-		offset: '80%'
+		offset: '90%'
 	});
 });
+
+
+
 /***********************
 Counters END
 ***********************/
