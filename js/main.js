@@ -316,3 +316,30 @@ $(function(){
 /***********************
  Partners-slider END
  ***********************/
+
+
+/***********************
+Projec tabs BEGIN
+***********************/
+$(function($){
+	var tab_links = $('.js-project-tabs .tabs__link');
+	var services_walls = $('.services-wall');
+
+	function select_project_tab(index) {
+		tab_links.removeClass('active');
+		tab_links.eq(index).addClass('active');
+		services_walls.removeClass('active');
+		services_walls.eq(index).addClass('active');
+	}
+
+	tab_links.on('click',function () {
+		var index = $(this).index();
+		select_project_tab(index);
+	});
+
+	select_project_tab(0);
+
+});
+/***********************
+Projec tabs END
+***********************/

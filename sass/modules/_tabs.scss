@@ -1,0 +1,56 @@
+.tabs{
+	user-select: none;
+	margin-bottom: 40px;
+
+	ul{
+		list-style: none;
+		text-align: center;
+	}
+
+	&__link{
+		display: inline-block;
+		vertical-align: top;
+		cursor: pointer;
+		padding: 14px 15px;
+		background: rgba(255,255,255,0.7);
+		border: 2px solid transparent;
+		border-radius: 40px;
+		margin: 0 0 2px 0;
+		transition: border 0.3s ease;
+		@include res(xl){
+			padding: 12px 10px;
+		}
+		@include res(l){
+			padding: 8px 10px;
+		}
+		@include res(xs){
+			padding: 3px 6px;
+		}
+
+		span{
+			@extend .link-more;
+			@include res(s){
+				font-size: 10px;
+			}
+		}
+
+		&:hover,&:focus{
+			outline: none;
+			border: 2px solid transparentize($orange,0.7);
+
+			span{
+				color: lighten($orange,5%);
+				border-bottom: 1px solid $orange;
+			}
+		}
+
+		&.active{
+			border: 2px solid $orange;
+
+			span{
+				border-color: transparent;
+				color: $color-text;
+			}
+		}
+	}
+}

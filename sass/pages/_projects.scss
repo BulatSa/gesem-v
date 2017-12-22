@@ -1,0 +1,11 @@
+.s-project-list{
+	overflow: hidden;
+
+	.services-wall{
+		display: none;
+
+		&.active{
+			display: flex;
+		}
+	}
+}

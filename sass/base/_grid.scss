@@ -65,6 +65,24 @@
 	&--middle {
 		justify-content: center;
 	}
+
+	&--bg{
+		margin-left: -$gutter*2;
+		margin-right: -$gutter*2;
+		@include res(xl){
+			margin-left: -$gutter;
+			margin-right: -$gutter;
+		}
+
+		[class^="grid"]{
+			padding-left: $gutter*2;
+			padding-right: $gutter*2;
+			@include res(xl){
+				padding-left: $gutter;
+				padding-right: $gutter;
+			}
+		}
+	}
 }
 
 .row-ng{
