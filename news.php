@@ -21,7 +21,7 @@
 						<small>10.2017</small>
 					</time>
 					<main class="article-intro__content">
-						<a href="#" class="h4 article-intro__title">Новостной заголовок предполагает строительство двух ниток мощностью</a>
+						<a href="/news-detail.php" class="h4 article-intro__title">Новостной заголовок предполагает строительство двух ниток мощностью</a>
 						<div class="user-content article-intro__preview-text">Проект предполагает строительство двух ниток мощностью по 15,75 миллиарда кубометров каждая. Первая нитка предназначена для поставок газа турецким потребителям, ее планируется ввести в марте 2018 года;
 						</div>
 						<div class="article-intro__images">
@@ -30,7 +30,7 @@
 							<a href="/img/news-example.jpg" class="fancy" data-fancybox="id_news"><img src="/img/news-example.jpg" alt="1"></a>
 							<a href="/img/news-example.jpg" class="fancy" data-fancybox="id_news"><img src="/img/news-example.jpg" alt="1"></a>
 						</div>
-						<a href="#" class="link-more">Подробнее</a>
+						<a href="/news-detail.php" class="link-more">Подробнее</a>
 					</main>
 				</article>
 			</div>
@@ -42,10 +42,10 @@
 						<small>10.2017</small>
 					</time>
 					<main class="article-intro__content">
-						<a href="#" class="h4 article-intro__title">Новостной заголовок предполагает строительство двух ниток мощностью</a>
+						<a href="/news-detail.php" class="h4 article-intro__title">Новостной заголовок предполагает строительство двух ниток мощностью</a>
 						<div class="user-content article-intro__preview-text">Проект предполагает строительство двух ниток мощностью по 15,75 миллиарда кубометров каждая. Первая нитка предназначена для поставок газа турецким потребителям, ее планируется ввести в марте 2018 года;
 						</div>
-						<a href="#" class="link-more">Подробнее</a>
+						<a href="/news-detail.php" class="link-more">Подробнее</a>
 					</main>
 				</article>
 			</div>
@@ -57,43 +57,7 @@
 						<small>10.2017</small>
 					</time>
 					<main class="article-intro__content">
-						<a href="#" class="h4 article-intro__title">Новостной заголовок предполагает строительство двух ниток мощностью</a>
-						<div class="user-content article-intro__preview-text">Проект предполагает строительство двух ниток мощностью по 15,75 миллиарда кубометров каждая. Первая нитка предназначена для поставок газа турецким потребителям, ее планируется ввести в марте 2018 года;
-						</div>
-						<div class="article-intro__images">
-							<a href="/img/news-example.jpg" class="fancy" data-fancybox="id_news"><img src="/img/news-example.jpg" alt="1"></a>
-							<a href="/img/news-example.jpg" class="fancy" data-fancybox="id_news"><img src="/img/news-example.jpg" alt="1"></a>
-							<a href="/img/news-example.jpg" class="fancy" data-fancybox="id_news"><img src="/img/news-example.jpg" alt="1"></a>
-							<a href="/img/news-example.jpg" class="fancy" data-fancybox="id_news"><img src="/img/news-example.jpg" alt="1"></a>
-						</div>
-						<a href="#" class="link-more">Подробнее</a>
-					</main>
-				</article>
-			</div>
-
-			<div class="timeline__item anim">
-				<article class="article-intro">
-					<time datetime="2017-10-23" class="article-intro__time">
-						<strong>29</strong>
-						<small>10.2017</small>
-					</time>
-					<main class="article-intro__content">
-						<a href="#" class="h4 article-intro__title">Новостной заголовок предполагает строительство двух ниток мощностью</a>
-						<div class="user-content article-intro__preview-text">Проект предполагает строительство двух ниток мощностью по 15,75 миллиарда кубометров каждая. Первая нитка предназначена для поставок газа турецким потребителям, ее планируется ввести в марте 2018 года;
-						</div>
-						<a href="#" class="link-more">Подробнее</a>
-					</main>
-				</article>
-			</div>
-
-			<div class="timeline__item anim">
-				<article class="article-intro">
-					<time datetime="2017-10-23" class="article-intro__time">
-						<strong>29</strong>
-						<small>10.2017</small>
-					</time>
-					<main class="article-intro__content">
-						<a href="#" class="h4 article-intro__title">Новостной заголовок предполагает строительство двух ниток мощностью</a>
+						<a href="/news-detail.php" class="h4 article-intro__title">Новостной заголовок предполагает строительство двух ниток мощностью</a>
 						<div class="user-content article-intro__preview-text">Проект предполагает строительство двух ниток мощностью по 15,75 миллиарда кубометров каждая. Первая нитка предназначена для поставок газа турецким потребителям, ее планируется ввести в марте 2018 года;
 						</div>
 						<div class="article-intro__images">
@@ -102,7 +66,7 @@
 							<a href="/img/news-example.jpg" class="fancy" data-fancybox="id_news"><img src="/img/news-example.jpg" alt="1"></a>
 							<a href="/img/news-example.jpg" class="fancy" data-fancybox="id_news"><img src="/img/news-example.jpg" alt="1"></a>
 						</div>
-						<a href="#" class="link-more">Подробнее</a>
+						<a href="/news-detail.php" class="link-more">Подробнее</a>
 					</main>
 				</article>
 			</div>
@@ -114,10 +78,52 @@
 						<small>10.2017</small>
 					</time>
 					<main class="article-intro__content">
-						<a href="#" class="h4 article-intro__title">Новостной заголовок предполагает строительство двух ниток мощностью</a>
+						<a href="/news-detail.php" class="h4 article-intro__title">Новостной заголовок предполагает строительство двух ниток мощностью</a>
 						<div class="user-content article-intro__preview-text">Проект предполагает строительство двух ниток мощностью по 15,75 миллиарда кубометров каждая. Первая нитка предназначена для поставок газа турецким потребителям, ее планируется ввести в марте 2018 года;
 						</div>
-						<a href="#" class="link-more">Подробнее</a>
+						<a href="/news-detail.php" class="link-more">Подробнее</a>
+					</main>
+				</article>
+			</div>
+
+			<div class="timeline__item anim">
+				<article class="article-intro">
+					<time datetime="2017-10-23" class="article-intro__time">
+						<strong>29</strong>
+						<small>10.2017</small>
+					</time>
+					<main class="article-intro__content">
+						<a href="/news-detail.php" class="h4 article-intro__title">Новостной заголовок предполагает строительство двух ниток мощностью</a>
+						<div class="user-content article-intro__preview-text">Проект предполагает строительство двух ниток мощностью по 15,75 миллиарда кубометров каждая. Первая нитка предназначена для поставок газа турецким потребителям, ее планируется ввести в марте 2018 года;
+						</div>
+						<div class="article-intro__images">
+							<a href="/img/news-example.jpg" class="fancy" data-fancybox="id_news"><img src="/img/news-example.jpg" alt="1"></a>
+							<a href="/img/news-example.jpg" class="fancy" data-fancybox="id_news"><img src="/img/news-example.jpg" alt="1"></a>
+							<a href="/img/news-example.jpg" class="fancy" data-fancybox="id_news"><img src="/img/news-example.jpg" alt="1"></a>
+							<a href="/img/news-example.jpg" class="fancy" data-fancybox="id_news"><img src="/img/news-example.jpg" alt="1"></a>
+						</div>
+						<a href="/news-detail.php" class="link-more">Подробнее</a>
+					</main>
+				</article>
+			</div>
+
+			<div class="timeline__item anim">
+				<article class="article-intro">
+					<time datetime="2017-10-23" class="article-intro__time">
+						<strong>29</strong>
+						<small>10.2017</small>
+					</time>
+					<main class="article-intro__content">
+						<a href="/news-detail.php" class="h4 article-intro__title">Новостной заголовок предполагает строительство двух ниток мощностью</a>
+						<div class="user-content article-intro__preview-text">Проект предполагает строительство двух ниток мощностью по 15,75 миллиарда кубометров каждая. Первая нитка предназначена для поставок газа турецким потребителям, ее планируется ввести в марте 2018 года;
+						</div>
+						<div class="article-intro__images">
+							<a href="/img/news-example.jpg" class="fancy" data-fancybox="id_news"><img src="/img/news-example.jpg" alt="1"></a>
+							<a href="/img/news-example.jpg" class="fancy" data-fancybox="id_news"><img src="/img/news-example.jpg" alt="1"></a>
+							<a href="/img/news-example.jpg" class="fancy" data-fancybox="id_news"><img src="/img/news-example.jpg" alt="1"></a>
+							<a href="/img/news-example.jpg" class="fancy" data-fancybox="id_news"><img src="/img/news-example.jpg" alt="1"></a>
+						</div>
+						<a href="/news-detail.php" class="link-more">Подробнее</a>
 					</main>
 				</article>
 			</div>

@@ -213,7 +213,9 @@ Mob menu END
 Partners-slider BEGIN
 ***********************/
 $(function(){
-	var logo_slider = $('.logos-slider').flickity({
+	var logo_slider = $('.logos-slider').show();
+	logo_slider.offsetHeight;
+	logo_slider.flickity({
 		cellSelector: '.logo',
 		prevNextButtons: false,
 		pageDots: false,
@@ -281,9 +283,36 @@ $(function($){
 		offset: '90%'
 	});
 });
-
-
-
 /***********************
 Counters END
 ***********************/
+
+
+/***********************
+ Partners-slider BEGIN
+ ***********************/
+$(function(){
+	var article_slider = $('.article-slider').show();
+	article_slider.offsetHeight;
+	article_slider.flickity({
+		cellSelector: '.article-slider__item',
+		prevNextButtons: false,
+		pageDots: false,
+		accessibility: false,
+		contain: true,
+		imagesLoaded: true,
+		percentPosition: true
+	});
+
+	Waypoint.refreshAll();
+
+	article_slider.on( 'staticClick.flickity', function( event, pointer, cellElement, cellIndex ) {
+		if (!cellElement) {
+			return;
+		}
+		$(cellElement).find('.fancy').trigger('click');
+	});
+});
+/***********************
+ Partners-slider END
+ ***********************/

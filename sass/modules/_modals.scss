@@ -27,6 +27,10 @@
 		transform: scale3d(1,0,1);
 		transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
 		transform-origin: center top;
+		@include res(l){
+			transition: none;
+			transform: scale3d(1,1,1);
+		}
 
 		&--stripes{
 			background: url("../img/modal-bg.png") right top no-repeat #FFF;
@@ -40,6 +44,11 @@
 		transition: all 0.2s ease;
 		position: relative;
 		z-index: 2;
+		@include res(l){
+			transition: none;
+			opacity: 1;
+			transform: none;
+		}
 	}
 }
 
@@ -49,11 +58,17 @@
 		&__bg{
 			transform: scale3d(1,1,1);
 			transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+			@include res(l){
+				transition: none;
+			}
 		}
 		&__content{
 			opacity: 1;
 			transform: none;
 			transition: all 0.6s ease 0.4s;
+			@include res(l){
+				transition: none;
+			}
 		}
 	}
 }
@@ -68,6 +83,7 @@
 .fancybox-is-open .fancybox-bg{
 	background: #000000;
 	opacity: 0.7;
+	transform: translate3d(0,0,0);
 }
 
 .fancybox-close-small,.fancybox-slide--image .fancybox-close-small, .fancybox-slide--iframe .fancybox-close-small{

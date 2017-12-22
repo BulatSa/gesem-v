@@ -495,9 +495,9 @@
 
 <section class="s-about-news">
 	<div class="container">
-		<h2 class="h1 s-about-news__title">
-			<a href="#" title="Посмотреть все новости">Новости</a>
-		</h2>
+		<p class="h1 s-about-news__title">
+			<a href="/news.php" title="Посмотреть все новости">Новости</a>
+		</p>
 
 		<div class="timeline">
 
@@ -508,7 +508,7 @@
 						<small>10.2017</small>
 					</time>
 					<main class="article-intro__content">
-						<a href="#" class="h4 article-intro__title">Новостной заголовок предполагает строительство двух ниток мощностью</a>
+						<a href="/news-detail.php" class="h4 article-intro__title">Новостной заголовок предполагает строительство двух ниток мощностью</a>
 						<div class="user-content article-intro__preview-text">Проект предполагает строительство двух ниток мощностью по 15,75 миллиарда кубометров каждая. Первая нитка предназначена для поставок газа турецким потребителям, ее планируется ввести в марте 2018 года;
 						</div>
 						<div class="article-intro__images">
@@ -517,7 +517,7 @@
 							<a href="/img/news-example.jpg" class="fancy" data-fancybox="id_news"><img src="/img/news-example.jpg" alt="1"></a>
 							<a href="/img/news-example.jpg" class="fancy" data-fancybox="id_news"><img src="/img/news-example.jpg" alt="1"></a>
 						</div>
-						<a href="#" class="link-more">Подробнее</a>
+						<a href="/news-detail.php" class="link-more">Подробнее</a>
 					</main>
 				</article>
 			</div>
@@ -529,10 +529,10 @@
 						<small>10.2017</small>
 					</time>
 					<main class="article-intro__content">
-						<a href="#" class="h4 article-intro__title">Новостной заголовок предполагает строительство двух ниток мощностью</a>
+						<a href="/news-detail.php" class="h4 article-intro__title">Новостной заголовок предполагает строительство двух ниток мощностью</a>
 						<div class="user-content article-intro__preview-text">Проект предполагает строительство двух ниток мощностью по 15,75 миллиарда кубометров каждая. Первая нитка предназначена для поставок газа турецким потребителям, ее планируется ввести в марте 2018 года;
 						</div>
-						<a href="#" class="link-more">Подробнее</a>
+						<a href="/news-detail.php" class="link-more">Подробнее</a>
 					</main>
 				</article>
 			</div>
