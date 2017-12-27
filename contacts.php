@@ -13,12 +13,9 @@
 	<div class="container">
 		<nav class="tabs js-contacts-tabs">
 			<ul>
-				<li class="tabs__link active" tabindex="0"><span>Москва</span></li>
+				<li class="tabs__link" tabindex="0"><span>Москва</span></li>
 				<li class="tabs__link" tabindex="0"><span>Санкт-Петербург</span></li>
 				<li class="tabs__link" tabindex="0"><span>Казань</span></li>
-				<li class="tabs__link" tabindex="0"><span>Тюмень</span></li>
-				<li class="tabs__link" tabindex="0"><span>Кемерово</span></li>
-				<li class="tabs__link" tabindex="0"><span>Якутск</span></li>
 			</ul>
 		</nav>
 	</div>
@@ -26,57 +23,70 @@
 
 	<div class="contacts-wrapper">
 
-		<div class="cities-wrapper">
-			<img src="/img/lines.svg" alt="lines" class="cities-wrapper__lines">
+		<div class="cities-block">
+			<img src="/img/lines.svg" alt="lines" class="cities-block__lines">
 
-			<div class="city active">
-				<div class="h2">Москва</div>
-				<address class="h4">пр. Одоевского Невского Крупского д. 2А квартира 655</address>
-				<div class="city__info">
-					<i class="i-phone-old"></i>
-					<a href="tel:+7 (985) 43–GESEM">+7 (985) 43–GESEM</a>
+			<div class="cities-wrapper">
+				<div class="city">
+					<div class="h2">Москва</div>
+					<address class="h4">пр. Одоевского Невского Крупского д. 2А квартира 655</address>
+					<div class="city__info">
+						<i class="i-phone-old"></i>
+						<a href="tel:+7 (985) 43–GESEM">+7 (985) 43–GESEM</a>
+					</div>
+					<div class="city__info">
+						<i class="i-phone-old"></i>
+						<a href="tel:+7 (985) 434–37–36">+7 (985) 434–37–36</a>
+					</div>
+					<div class="city__info">
+						<i class="i-e-mail-open"></i>
+						<a href="mailto:info@gesem.ru">info@gesem.ru</a>
+					</div>
+					<div class="city__info">
+						<i class="i-fax"></i>
+						<a href="mailto:info@gesem.ru">+7 (495) 374–82–64</a>
+					</div>
 				</div>
-				<div class="city__info">
-					<i class="i-phone-old"></i>
-					<a href="tel:+7 (985) 434–37–36">+7 (985) 434–37–36</a>
+				<div class="city">
+					<div class="h2">Санкт-Петербург</div>
+					<address class="h4">пр. Одоевского Невского Крупского д. 2А квартира 655</address>
+					<div class="city__info">
+						<i class="i-phone-old"></i>
+						<a href="tel:+7 (985) 43–GESEM">+7 (985) 43–GESEM</a>
+					</div>
+					<div class="city__info">
+						<i class="i-phone-old"></i>
+						<a href="tel:+7 (985) 434–37–36">+7 (985) 434–37–36</a>
+					</div>
 				</div>
-				<div class="city__info">
-					<i class="i-e-mail-open"></i>
-					<a href="mailto:info@gesem.ru">info@gesem.ru</a>
-				</div>
-				<div class="city__info">
-					<i class="i-fax"></i>
-					<a href="mailto:info@gesem.ru">+7 (495) 374–82–64</a>
+				<div class="city">
+					<div class="h2">Казань</div>
+					<address class="h4">пр. Одоевского д. 2А</address>
+					<div class="city__info">
+						<i class="i-phone-old"></i>
+						<a href="tel:+7 (985) 43–GESEM">+7 (985) 43–GESEM</a>
+					</div>
+					<div class="city__info">
+						<i class="i-phone-old"></i>
+						<a href="tel:+7 (985) 434–37–36">+7 (985) 434–37–36</a>
+					</div>
 				</div>
 			</div>
-
-			<div class="city">
-				<div class="h2">Санкт-Петербург</div>
-				<address class="h4">пр. Одоевского Невского Крупского д. 2А квартира 655</address>
-				<div class="city__info">
-					<i class="i-phone-old"></i>
-					<a href="tel:+7 (985) 43–GESEM">+7 (985) 43–GESEM</a>
-				</div>
-				<div class="city__info">
-					<i class="i-phone-old"></i>
-					<a href="tel:+7 (985) 434–37–36">+7 (985) 434–37–36</a>
-				</div>
-				<div class="city__info">
-					<i class="i-e-mail-open"></i>
-					<a href="mailto:info@gesem.ru">info@gesem.ru</a>
-				</div>
-				<div class="city__info">
-					<i class="i-fax"></i>
-					<a href="mailto:info@gesem.ru">+7 (495) 374–82–64</a>
-				</div>
-			</div>
-
 		</div>
 
 		<div id="map"></div>
 
 	</div>
 
+	<script>
+		var locations_from_admin = [
+			[55.750723, 37.609387],
+			[59.911683, 30.297973],
+			[55.786112, 49.125284]
+		];
+	</script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkPgTO8QdC0-DMpiduIS8qBUd9BLWDns0"></script>
 </section>
 
 

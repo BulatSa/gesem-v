@@ -11,9 +11,18 @@
 	background: #eee;
 	z-index: 1;
 	position: relative;
+	@include res(l){
+		height: 500px;
+	}
+	@include res(m){
+		height: 400px;
+	}
+	@include res(xs){
+		height: 250px;
+	}
 }
 
-.cities-wrapper{
+.cities-block{
 	width: 40%;
 	position: absolute;
 	z-index: 2;
@@ -40,11 +49,10 @@
 		z-index: 0;
 		width: 629px;
 		height: auto;
+		user-select: none;
+		pointer-events: none;
 		@include res(xl){
 			right: -250px;
-		}
-		@include res(l){
-			opacity: 0.1;
 		}
 		@include res(m){
 			right: -150px;
@@ -56,14 +64,32 @@
 	}
 }
 
-.city{
+.cities-wrapper{
 	position: relative;
-	z-index: 2;
+}
+
+.city{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
 	max-width: 400px;
-	display: none;
+	transform: translate3d(0,-50px,0);
+	transition: all 0.4s ease;
+	opacity: 0;
+	visibility: hidden;
 
 	&.active{
+		position: relative;
 		display: block;
+		z-index: 2;
+		opacity: 1;
+		visibility: visible;
+		transform: none;
+	}
+
+	&.hid{
+		transform: translate3d(0,50px,0);
 	}
 
 	address{
@@ -78,7 +104,7 @@
 		white-space: nowrap;
 		display: flex;
 		align-items: center;
-		@include res(xs){
+		@include res(l){
 			font-size: 16px;
 		}
 		&:last-child{
