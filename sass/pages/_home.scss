@@ -53,6 +53,13 @@
 			margin-bottom: 20px;
 		}
 	}
+
+	&--full {
+		border: none;
+	}
+	&--setup {
+		background: url("../img/services/bg-service-setup.jpg") center bottom no-repeat $color-text;
+	}
 }
 
 .home-catalogs{
