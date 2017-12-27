@@ -47,7 +47,7 @@
 	<nav class="head-nav">
 		<ul>
 			<li><a href="/about.php">О компании</a></li>
-			<li><a href="#" class="active">Услуги</a></li>
+			<li><a href="/services.php" class="active">Услуги</a></li>
 			<li><a href="/projects.php">Проекты</a></li>
 			<li><a href="#">Контакты</a></li>
 		</ul>
@@ -69,7 +69,7 @@
 			<nav class="head-nav">
 				<ul>
 					<li><a href="/about.php">О компании</a></li>
-					<li><a href="#" class="active">Услуги</a></li>
+					<li><a href="/services.php" class="active">Услуги</a></li>
 					<li><a href="/projects.php">Проекты</a></li>
 					<li><a href="#">Контакты</a></li>
 				</ul>
