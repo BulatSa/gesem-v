@@ -343,3 +343,38 @@ $(function($){
 /***********************
 Projec tabs END
 ***********************/
+
+
+/***********************
+ project-slider BEGIN
+ ***********************/
+$(function(){
+	var project_slider = $('.project-slider').show();
+	project_slider.offsetHeight;
+	project_slider.flickity({
+		cellSelector: '.project-slider__item',
+		lazyLoad: true,
+		prevNextButtons: true,
+		pageDots: false,
+		accessibility: true,
+		contain: true,
+		imagesLoaded: true,
+		percentPosition: true,
+		arrowShape: {
+			x0: 10,
+			x1: 60, y1: 50,
+			x2: 65, y2: 50,
+			x3: 15
+		}
+	});
+
+	project_slider.on( 'staticClick.flickity', function( event, pointer, cellElement, cellIndex ) {
+		if (!cellElement) {
+			return;
+		}
+		$(cellElement).find('.fancy').trigger('click');
+	});
+});
+/***********************
+ project-slider END
+ ***********************/
