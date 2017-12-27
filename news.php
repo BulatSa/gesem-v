@@ -131,7 +131,7 @@
 		</div>
 
 		<div class="content-center s-news-list__footer">
-			<a href="/clients.php" class="btn btn--outline">Смотреть еще</a>
+			<a href="#" class="btn btn--outline">Смотреть еще</a>
 		</div>
 
 		<div class="news-list-traktor">

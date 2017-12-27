@@ -49,7 +49,7 @@
 			<li><a href="/about.php">О компании</a></li>
 			<li><a href="/services.php" class="active">Услуги</a></li>
 			<li><a href="/projects.php">Проекты</a></li>
-			<li><a href="#">Контакты</a></li>
+			<li><a href="/contacts.php">Контакты</a></li>
 		</ul>
 	</nav>
 </div>
@@ -71,7 +71,7 @@
 					<li><a href="/about.php">О компании</a></li>
 					<li><a href="/services.php" class="active">Услуги</a></li>
 					<li><a href="/projects.php">Проекты</a></li>
-					<li><a href="#">Контакты</a></li>
+					<li><a href="/contacts.php">Контакты</a></li>
 				</ul>
 			</nav>
 			

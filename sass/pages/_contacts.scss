@@ -1,0 +1,103 @@
+.s-contacts{
+	z-index: 2;
+}
+
+.contacts-wrapper{
+	position: relative;
+}
+
+#map{
+	height: 700px;
+	background: #eee;
+	z-index: 1;
+	position: relative;
+}
+
+.cities-wrapper{
+	width: 40%;
+	position: absolute;
+	z-index: 2;
+	right: 0;
+	top: 50%;
+	transform: translate(0,-50%);
+	background: #FFF;
+	padding: 40px 60px;
+	overflow: hidden;
+	@include res(m){
+		position: relative;
+		width: 100%;
+		top: initial;
+		transform: none;
+	}
+	@include res(xs){
+		padding: 20px $gutter;
+	}
+
+	&__lines{
+		position: absolute;
+		right: -100px;
+		top: 0;
+		z-index: 0;
+		width: 629px;
+		height: auto;
+		@include res(xl){
+			right: -250px;
+		}
+		@include res(l){
+			opacity: 0.1;
+		}
+		@include res(m){
+			right: -150px;
+			opacity: 1;
+		}
+		@include res(xs){
+			opacity: 0.1;
+		}
+	}
+}
+
+.city{
+	position: relative;
+	z-index: 2;
+	max-width: 400px;
+	display: none;
+
+	&.active{
+		display: block;
+	}
+
+	address{
+		font-style: normal;
+		margin-bottom: 30px;
+	}
+
+	&__info{
+		font-size: 22px;
+		font-weight: 400;
+		margin-bottom: 20px;
+		white-space: nowrap;
+		display: flex;
+		align-items: center;
+		@include res(xs){
+			font-size: 16px;
+		}
+		&:last-child{
+			margin-bottom: 0;
+		}
+
+		i{
+			display: inline-block;
+			width: 40px;
+
+			&.i-phone-old{
+				font-size: 25px;
+			}
+			&.i-e-mail-open{
+				font-size: 28px;
+			}
+			&.i-fax{
+				font-size: 28px;
+			}
+		}
+	}
+}
