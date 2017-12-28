@@ -1,0 +1,28 @@
+.service-territory-sec {
+	@extend %paddings;
+	background: url('../img/services/bg-map.jpg') no-repeat center bottom;
+}
+.service-territory {
+	.h1 {
+		text-align: center;
+	}
+	.lead-big{
+		margin-top: 2em;
+		max-width: 640px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		@include res(m){
+			margin-top: 1em;
+		}
+	}
+}
+
+.service-territory__map {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	height: 700px;
+	text-align: center;
+
+}

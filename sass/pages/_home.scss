@@ -60,6 +60,9 @@
 	&--setup {
 		background: url("../img/services/bg-service-setup.jpg") center bottom no-repeat $color-text;
 	}
+	&--job {
+		background: url("../img/services/bg-service-job.jpg") center bottom no-repeat $color-text;
+	}
 }
 
 .home-catalogs{
@@ -155,6 +158,38 @@
 	}
 }
 
+.home-video-link {
+	position: relative;
+	padding-top: 25px;
+	a {
+		position: relative;
+		display: inline-block;
+		&:hover {
+			&:after {
+				transform: translate3d(-50%,-50%,0) scale(1);
+			}
+		}
+		&:after {
+			content: '';
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			background: transparentize($orange,0.75);
+			transform: translate3d(-50%,-50%,0) scale(0.8);
+			transition: all 0.3s ease;
+			z-index: 0;
+		}
+	}
+	img {
+		position: relative;
+		display: block;
+		z-index: 1;
+	}
+}
+
 .download-link{
 	position: relative;
 	font-size: 12px;
@@ -205,5 +240,9 @@
 			height: 42px;
 			width: 42px;
 		}
+	}
+
+	&--gray {
+
 	}
 }

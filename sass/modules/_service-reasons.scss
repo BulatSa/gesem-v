@@ -1,0 +1,51 @@
+.service-reasons-sec {
+	@extend %paddings-top;
+}
+
+.service-reasons {
+	.h2 {
+		text-align: center;
+	}
+}
+
+.service-reasons__list {
+	padding-top: 60px;
+	@include res(l) {
+		padding-top: 40px;
+	}
+	@include res(xs) {
+		padding-top: 25px;
+	}
+}
+
+.service-reasons__item {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 40px;
+	@include res(l) {
+		padding-bottom: 30px;
+	}
+	@include res(xs) {
+		padding-bottom: 15px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	img {
+		max-width: 100%;
+		@include res(l) {
+			height: 80px;
+		}
+		@include res(xs) {
+			height: 50px;
+		}
+	}
+	.user-content {
+		padding-top: 30px;
+		@include res(l) {
+			padding-top: 15px;
+		}
+		@include res(xs) {
+			padding-top: 5px;
+		}
+	}
+}

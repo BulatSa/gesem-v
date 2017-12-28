@@ -1,9 +1,9 @@
 ﻿<?php include('header.php'); ?>
 
 
-<section class="s-home s-home--full s-home--setup">
+<section class="s-home s-home--full s-home--job">
 	<div class="container">
-		<h1 class="s-home__title">Установка дополнительных систем</h1>
+		<h1 class="s-home__title">Обслуживание</h1>
 		<p class="lead-big">Основная сфера нашей работы – комплексная установка дополнительного оборудования на тяжелую технику, которая работает на дизельном двигателе и управляется оператором. Каждая из система выполняет свои задачи.</p>
 
 		<div class="home-catalogs">
@@ -23,11 +23,53 @@
 		
 		<div class="home-video-link">
 			<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="fancy">
-				<img src="img/home/video-link-1.png" alt="">
+				<img src="img/home/video-link-2.png" alt="">
 			</a>
 		</div>
 	</div>
 
+</section>
+
+
+<section class="service-reasons-sec">
+	<div class="service-reasons container">
+		<p class="h2">Почему с нами удобно</p>
+		<div class="service-reasons__list row">
+			<div class="grid-3 grid-6_l grid-12_xs">
+				<div class="service-reasons__item">
+					<img src="img/services/reason-1.svg" alt="">
+					<div class="user-content">
+						<p>У нас свои склады в РФ и СНГ. Мы поддерживаем и пополняем в них запасы оборудования и сервисных комплектов. Засчёт налаженной системы логистики контролируем сроки поставки: сегодня подписали договор, а завтра поставим и смонтируем оборудование.</p>
+					</div>
+				</div>
+			</div>
+			<div class="grid-3 grid-6_l grid-12_xs">
+				<div class="service-reasons__item">
+					<img src="img/services/reason-2.svg" alt="">
+					<div class="user-content">
+						<p>Предлагаем работающие решения. Возьмём, к примеру, систему пожаротушения: это будет не просто огнетушитель в кабину, а система, разведенная во все отсеки с высоким потенциалом возгорания. Она будет оборудована датчиками. В нужный момент система сработает и затушит опасный участок.</p>
+					</div>
+				</div>
+			</div>
+			<div class="grid-3 grid-6_l grid-12_xs">
+				<div class="service-reasons__item">
+					<img src="img/services/reason-3.png" alt="">
+					<div class="user-content">
+						<p>Организуем комплексную поставку оборудования. Допустим, вам нужно установить светодиодные фары и систему предпускового подогрева. Вам не нужно искать 2 разные компании, подписывать с ними договора и тратить в 2 раза больше денег. Мы умеем монтировать и обслуживать всю линейку дополнительного оборудования.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="grid-3 grid-6_l grid-12_xs">
+				<div class="service-reasons__item">
+					<img src="img/services/reason-4.png" alt="">
+					<div class="user-content">
+						<p>Практикуем отсрочку платежа. В зависимости от условий нашего договора мы предлагаем постоплату с отсрочкой платежа.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 
 
@@ -96,8 +138,8 @@
 
 <section class="s-page-header">
 	<div class="container">
-		<h1 class="h1">Мы делаем мир эффективнее</h1>
-		<p class="lead-big">В сфере применения нашего оборудования трудятся крупнейшие бюджетообразующие предприятия страны: нефте-,газодобывающие предприятия, горное дело, сталелитейные, лесозаготовительные заводы, аэропорты. Установленное нами оборудование помогает добывать нефть и другие полезные ископаемые, строить дороги, рубить лес, производить станки и т.д. Мы верим, что миссия нашей компании - быть бесперебойным механизмом этой системы для достижения стратегически важных целей в масштабах страны.</p>
+		<h1 class="h1">Мы делаем мир надежнее</h1>
+		<p class="lead-big">Часто к нам обращаются, когда на предприятии сгорела машина. Руководители ищут системы пожаротушения, чтобы оборудовать оставшийся парк тяжелой техники. А мы предлагаем сразу решить вопрос надежности и безопасности: в момент покупки укомплектовать машины системой пожаротушения. Так вы обезопасите себя, своих сотрудников и вложенный в производственный процесс капитал.</p>
 	</div>
 </section>
 
@@ -106,7 +148,7 @@
 	<div class="container-wide">
 		<div class="row row--bg services-wall">
 
-			<div class="grid-4 grid-6_l grid-12_xs">
+			<div class="grid-6 grid-12_xs">
 				<a href="/project-detail.php" class="service-panel">
 					<div class="service-panel__bg" style="background-image: url('/img/services/root-1.jpg')"></div>
 					<div class="service-panel__content">
@@ -118,7 +160,7 @@
 				</a>
 			</div>
 
-			<div class="grid-4 grid-6_l grid-12_xs">
+			<div class="grid-6 grid-12_xs">
 				<a href="/project-detail.php" class="service-panel">
 					<div class="service-panel__bg" style="background-image: url('/img/services/root-2.jpg')"></div>
 					<div class="service-panel__content">
@@ -130,200 +172,17 @@
 				</a>
 			</div>
 
-			<div class="grid-4 grid-6_l grid-12_xs">
-				<a href="/project-detail.php" class="service-panel">
-					<div class="service-panel__bg" style="background-image: url('/img/services/root-2.jpg')"></div>
-					<div class="service-panel__content">
-						<div class="service-panel__cat">Услуги</div>
-						<div class="h2 service-panel__title">Централизованная
-							система смазки</div>
-						<div class="service-panel__more">подробнее</div>
-					</div>
-				</a>
-			</div>
-
-			<div class="grid-4 grid-6_l grid-12_xs">
-				<a href="/project-detail.php" class="service-panel">
-					<div class="service-panel__bg" style="background-image: url('/img/services/root-1.jpg')"></div>
-					<div class="service-panel__content">
-						<div class="service-panel__cat">Услуги</div>
-						<div class="h2 service-panel__title">Бортовая система
-							взвешивания</div>
-						<div class="service-panel__more">подробнее</div>
-					</div>
-				</a>
-			</div>
-
-			<div class="grid-4 grid-6_l grid-12_xs">
-				<a href="/project-detail.php" class="service-panel">
-					<div class="service-panel__bg" style="background-image: url('/img/services/root-2.jpg')"></div>
-					<div class="service-panel__content">
-						<div class="service-panel__cat">Услуги</div>
-						<div class="h2 service-panel__title">Система
-							видеонаблюдения</div>
-						<div class="service-panel__more">подробнее</div>
-					</div>
-				</a>
-			</div>
-
-			<div class="grid-4 grid-6_l grid-12_xs">
-				<a href="/project-detail.php" class="service-panel">
-					<div class="service-panel__bg" style="background-image: url('/img/services/root-2.jpg')"></div>
-					<div class="service-panel__content">
-						<div class="service-panel__cat">Услуги</div>
-						<div class="h2 service-panel__title">Система безопасности
-							и контроля</div>
-						<div class="service-panel__more">подробнее</div>
-					</div>
-				</a>
-			</div>
-
-			<div class="grid-4 grid-6_l grid-12_xs">
-				<a href="/project-detail.php" class="service-panel">
-					<div class="service-panel__bg" style="background-image: url('/img/services/root-1.jpg')"></div>
-					<div class="service-panel__content">
-						<div class="service-panel__cat">Услуги</div>
-						<div class="h2 service-panel__title">Система контроля
-							давления в шинах</div>
-						<div class="service-panel__more">подробнее</div>
-					</div>
-				</a>
-			</div>
-
-			<div class="grid-4 grid-6_l grid-12_xs">
-				<a href="/project-detail.php" class="service-panel">
-					<div class="service-panel__bg" style="background-image: url('/img/services/root-2.jpg')"></div>
-					<div class="service-panel__content">
-						<div class="service-panel__cat">Услуги</div>
-						<div class="h2 service-panel__title">Автономная система
-							подогрева</div>
-						<div class="service-panel__more">подробнее</div>
-					</div>
-				</a>
-			</div>
-
-			<div class="grid-4 grid-6_l grid-12_xs">
-				<a href="#" class="service-panel service-panel--cons fancy" data-src="#modal-smeta">
-					<div class="service-panel__bg" style="background-image: url('/img/services/man-cons.jpg')"></div>
-					<div class="service-panel__content">
-						<div class="service-panel__cat"></div>
-						<div class="h2 service-panel__title">Бесплатная
-							консультация</div>
-						<span class="btn btn--outline">Оставить заявку</span>
-					</div>
-				</a>
-			</div>
-
 		</div>
 	</div>
 </section>
 
 
-<section class="service-benefits-sec">
-	<div class="service-benefits container">
-		<p class="h1">Почему стоит устанавливать оборудование именно у нас</p>
-		<div class="service-benefits__list row">
-			<div class="grid-4 grid-6_m grid-12_s">
-				<div class="service-benefits__item">
-					<div class="service-benefits__item-img">
-						<img src="img/services/benefit-1.png" alt="">
-					</div>
-					<div class="user-content">
-						<b>У нас свои склады в РФ и СНГ. </b>
-						<p>Засчёт налаженной системы логистики контролируем сроки поставки: сегодня подписали договор, а завтра поставим и смонтируем оборудование.</p>
-					</div>
-				</div>
-			</div>
-			<div class="grid-4 grid-6_m grid-12_s">
-				<div class="service-benefits__item">
-					<div class="service-benefits__item-img">
-						<img src="img/services/benefit-2.png" alt="">
-					</div>
-					<div class="user-content">
-						<b>У нас свои склады в РФ и СНГ. </b>
-						<p>Засчёт налаженной системы логистики контролируем сроки поставки: сегодня подписали договор, а завтра поставим и смонтируем оборудование.</p>
-					</div>
-				</div>
-			</div>
-			<div class="grid-4 grid-6_m grid-12_s">
-				<div class="service-benefits__item">
-					<div class="service-benefits__item-img">
-						<img src="img/services/benefit-3.png" alt="">
-					</div>
-					<div class="user-content">
-						<b>У нас свои склады в РФ и СНГ. </b>
-						<p>Засчёт налаженной системы логистики контролируем сроки поставки: сегодня подписали договор, а завтра поставим и смонтируем оборудование.</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="grid-4 grid-6_m grid-12_s">
-				<div class="service-benefits__item">
-					<div class="service-benefits__item-img">
-						<img src="img/services/benefit-4.png" alt="">
-					</div>
-					<div class="user-content">
-						<b>У нас свои склады в РФ и СНГ. </b>
-						<p>Засчёт налаженной системы логистики контролируем сроки поставки: сегодня подписали договор, а завтра поставим и смонтируем оборудование.</p>
-					</div>
-				</div>
-			</div>
-			<div class="grid-4 grid-6_m grid-12_s">
-				<div class="service-benefits__item">
-					<div class="service-benefits__item-img">
-						<img src="img/services/benefit-5.png" alt="">
-					</div>
-					<div class="user-content">
-						<b>У нас свои склады в РФ и СНГ. </b>
-						<p>Засчёт налаженной системы логистики контролируем сроки поставки: сегодня подписали договор, а завтра поставим и смонтируем оборудование.</p>
-					</div>
-				</div>
-			</div>
-			<div class="grid-4 grid-6_m grid-12_s">
-				<div class="service-benefits__item">
-					<div class="service-benefits__item-img">
-						<img src="img/services/benefit-6.png" alt="">
-					</div>
-					<div class="user-content">
-						<b>У нас свои склады в РФ и СНГ. </b>
-						<p>Засчёт налаженной системы логистики контролируем сроки поставки: сегодня подписали договор, а завтра поставим и смонтируем оборудование.</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="grid-4 grid-6_m grid-12_s">
-				<div class="service-benefits__item">
-					<div class="service-benefits__item-img">
-						<img src="img/services/benefit-7.png" alt="">
-					</div>
-					<div class="user-content">
-						<b>У нас свои склады в РФ и СНГ. </b>
-						<p>Засчёт налаженной системы логистики контролируем сроки поставки: сегодня подписали договор, а завтра поставим и смонтируем оборудование.</p>
-					</div>
-				</div>
-			</div>
-			<div class="grid-4 grid-6_m grid-12_s">
-				<div class="service-benefits__item">
-					<div class="service-benefits__item-img">
-						<img src="img/services/benefit-8.png" alt="">
-					</div>
-					<div class="user-content">
-						<b>У нас свои склады в РФ и СНГ. </b>
-						<p>Засчёт налаженной системы логистики контролируем сроки поставки: сегодня подписали договор, а завтра поставим и смонтируем оборудование.</p>
-					</div>
-				</div>
-			</div>
-			<div class="grid-4 grid-6_m grid-12_s">
-				<div class="service-benefits__item">
-					<div class="service-benefits__item-img">
-						<img src="img/services/benefit-8.png" alt="">
-					</div>
-					<div class="user-content">
-						<b>У нас свои склады в РФ и СНГ. </b>
-						<p>Засчёт налаженной системы логистики контролируем сроки поставки: сегодня подписали договор, а завтра поставим и смонтируем оборудование.</p>
-					</div>
-				</div>
-			</div>
+<section class="service-territory-sec">
+	<div class="service-territory container">
+		<h1 class="h1">Территория нашего распространения</h1>
+		<p class="lead-big">Офисы, склады и сервисные службы есть в Москве, Санкт-Петербурге, Краснодаре, Казани, Екатеринбурге, Чите, Магадане и ещё нескольких городах РФ. И по одному офису - в Беларуссии, Казахстане, Кыргызстане и Узбекистане.</p>
+		<div class="service-territory__map">
+			<a href="#" class="download-link fancy" data-src="#modal-smeta">Коммерческое предложение</a>
 		</div>
 	</div>
 </section>
@@ -826,8 +685,8 @@
 </section>
 
 
-<section class="s-footimg s-footimg--clients">
-	<img src="/img/clients/foot.jpg" alt="1">
+<section class="s-footimg s-footimg--services-root">
+	<img src="/img/services/foot-root.jpg" alt="1">
 </section>
 
 
