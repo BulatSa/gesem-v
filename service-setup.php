@@ -213,6 +213,116 @@
 </section>
 
 
+<section class="service-benefits-sec">
+	<div class="service-benefits container">
+		<p class="h1">Почему стоит устанавливать оборудование именно у нас</p>
+		<div class="service-benefits__list row">
+			<div class="grid-4 grid-6_m grid-12_s">
+				<div class="service-benefits__item">
+					<div class="service-benefits__item-img">
+						<img src="img/services/benefit-1.png" alt="">
+					</div>
+					<div class="user-content">
+						<b>У нас свои склады в РФ и СНГ. </b>
+						<p>Засчёт налаженной системы логистики контролируем сроки поставки: сегодня подписали договор, а завтра поставим и смонтируем оборудование.</p>
+					</div>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_m grid-12_s">
+				<div class="service-benefits__item">
+					<div class="service-benefits__item-img">
+						<img src="img/services/benefit-2.png" alt="">
+					</div>
+					<div class="user-content">
+						<b>У нас свои склады в РФ и СНГ. </b>
+						<p>Засчёт налаженной системы логистики контролируем сроки поставки: сегодня подписали договор, а завтра поставим и смонтируем оборудование.</p>
+					</div>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_m grid-12_s">
+				<div class="service-benefits__item">
+					<div class="service-benefits__item-img">
+						<img src="img/services/benefit-3.png" alt="">
+					</div>
+					<div class="user-content">
+						<b>У нас свои склады в РФ и СНГ. </b>
+						<p>Засчёт налаженной системы логистики контролируем сроки поставки: сегодня подписали договор, а завтра поставим и смонтируем оборудование.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="grid-4 grid-6_m grid-12_s">
+				<div class="service-benefits__item">
+					<div class="service-benefits__item-img">
+						<img src="img/services/benefit-4.png" alt="">
+					</div>
+					<div class="user-content">
+						<b>У нас свои склады в РФ и СНГ. </b>
+						<p>Засчёт налаженной системы логистики контролируем сроки поставки: сегодня подписали договор, а завтра поставим и смонтируем оборудование.</p>
+					</div>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_m grid-12_s">
+				<div class="service-benefits__item">
+					<div class="service-benefits__item-img">
+						<img src="img/services/benefit-5.png" alt="">
+					</div>
+					<div class="user-content">
+						<b>У нас свои склады в РФ и СНГ. </b>
+						<p>Засчёт налаженной системы логистики контролируем сроки поставки: сегодня подписали договор, а завтра поставим и смонтируем оборудование.</p>
+					</div>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_m grid-12_s">
+				<div class="service-benefits__item">
+					<div class="service-benefits__item-img">
+						<img src="img/services/benefit-6.png" alt="">
+					</div>
+					<div class="user-content">
+						<b>У нас свои склады в РФ и СНГ. </b>
+						<p>Засчёт налаженной системы логистики контролируем сроки поставки: сегодня подписали договор, а завтра поставим и смонтируем оборудование.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="grid-4 grid-6_m grid-12_s">
+				<div class="service-benefits__item">
+					<div class="service-benefits__item-img">
+						<img src="img/services/benefit-7.png" alt="">
+					</div>
+					<div class="user-content">
+						<b>У нас свои склады в РФ и СНГ. </b>
+						<p>Засчёт налаженной системы логистики контролируем сроки поставки: сегодня подписали договор, а завтра поставим и смонтируем оборудование.</p>
+					</div>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_m grid-12_s">
+				<div class="service-benefits__item">
+					<div class="service-benefits__item-img">
+						<img src="img/services/benefit-8.png" alt="">
+					</div>
+					<div class="user-content">
+						<b>У нас свои склады в РФ и СНГ. </b>
+						<p>Засчёт налаженной системы логистики контролируем сроки поставки: сегодня подписали договор, а завтра поставим и смонтируем оборудование.</p>
+					</div>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_m grid-12_s">
+				<div class="service-benefits__item">
+					<div class="service-benefits__item-img">
+						<img src="img/services/benefit-8.png" alt="">
+					</div>
+					<div class="user-content">
+						<b>У нас свои склады в РФ и СНГ. </b>
+						<p>Засчёт налаженной системы логистики контролируем сроки поставки: сегодня подписали договор, а завтра поставим и смонтируем оборудование.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
 <section class="s-about-partners">
 	<div class="container-wide">
 		<p class="h3">Наши клиенты</p>
@@ -625,16 +735,7 @@
 		<p class="h1">Частые вопросы о безопасности</p>
 		<div class="faq__list">
 			<div class="faq__item">
-				<p class="faq__item-title h4"><span>01 /</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum </p>
-				<div class="faq__item-text">
-					<div class="user-content">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur blanditiis cumque eligendi eum eveniet excepturi iste libero minima minus mollitia nihil nostrum quam quisquam quo similique, velit voluptatem voluptatibus?
-					</div>
-				</div>
-			</div>
-
-			<div class="faq__item open">
-				<p class="faq__item-title h4"><span>01 /</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum </p>
+				<p class="faq__item-title h4"><span>01 / </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum </p>
 				<div class="faq__item-text">
 					<div class="user-content">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur blanditiis cumque eligendi eum eveniet excepturi iste libero minima minus mollitia nihil nostrum quam quisquam quo similique, velit voluptatem voluptatibus?
@@ -643,7 +744,16 @@
 			</div>
 
 			<div class="faq__item">
-				<p class="faq__item-title h4"><span>01 /</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum </p>
+				<p class="faq__item-title h4"><span>01 / </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum </p>
+				<div class="faq__item-text">
+					<div class="user-content">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur blanditiis cumque eligendi eum eveniet excepturi iste libero minima minus mollitia nihil nostrum quam quisquam quo similique, velit voluptatem voluptatibus?
+					</div>
+				</div>
+			</div>
+
+			<div class="faq__item">
+				<p class="faq__item-title h4"><span>01 / </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum </p>
 				<div class="faq__item-text">
 					<div class="user-content">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur blanditiis cumque eligendi eum eveniet excepturi iste libero minima minus mollitia nihil nostrum quam quisquam quo similique, velit voluptatem voluptatibus?

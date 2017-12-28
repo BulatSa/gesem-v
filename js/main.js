@@ -459,3 +459,26 @@ $(function($){
 /***********************
 contacts END
 ***********************/
+
+
+/***********************
+Faq BEGIN
+***********************/
+$(document).ready(function() {
+	if($('.faq__item-title').length) {
+		$('.faq__item-title').on('click', function(){
+			var $this = $(this);
+			var $faqList = $this.parents('.faq__list');
+			var $otherItems = $faqList.find('.faq__item-title').not($this).closest('.faq__item');
+
+			$otherItems.removeClass('open');
+			$otherItems.find('.faq__item-text').slideUp();
+
+			$this.next('.faq__item-text').slideToggle();
+			$this.closest('.faq__item').toggleClass('open');
+		});
+	}
+});
+/***********************
+Faq END
+***********************/

@@ -1,0 +1,51 @@
+.service-benefits-sec {
+	@extend %paddings-top;
+}
+
+.service-benefits {
+	.h1 {
+		text-align: center;
+	}
+}
+
+.service-benefits__list {
+	padding-top: 70px;
+	@include res(l) {
+		padding-top: 60px;
+	}
+	@include res(s) {
+		padding-top: 30px;
+	}
+}
+
+.service-benefits__item {
+	padding-bottom: 60px;
+	text-align: center;
+	@include res(l) {
+		padding-bottom: 40px;
+	}
+	@include res(s) {
+		padding-bottom: 15px;
+	}
+	.user-content {
+		padding-top: 10px;
+	}
+}
+
+.service-benefits__item-img {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	height: 100px;
+	@include res(l) {
+		height: 80px;
+	}
+	@include res(s) {
+		height: 60px;
+	}
+	img {
+		max-width: auto;
+		max-height: 100%;
+		flex-shrink: 0;
+	}
+}
