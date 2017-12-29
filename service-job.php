@@ -8,7 +8,7 @@
 
 		<div class="home-catalogs">
 			<a href="#" class="home-catalog">
-				<img src="/img/home/1.jpg" alt="1">
+				<img src="/img/home/3.jpg" alt="1">
 				<span>Каталог для сельского хозяйства</span>
 			</a>
 			<a href="#" class="home-catalog">
@@ -16,8 +16,8 @@
 				<span>Каталог карьерной техники</span>
 			</a>
 			<a href="#" class="home-catalog">
-				<img src="/img/home/2.jpg" alt="2">
-				<span>Каталог карьерной техники</span>
+				<img src="/img/home/1.jpg" alt="2">
+				<span>Каталог лесоза&shy;готовительной техники</span>
 			</a>
 		</div>
 		
@@ -177,13 +177,93 @@
 </section>
 
 
+<section class="service-wants-sec">
+	<div class="service-wants container">
+		<p class="h1">Это необходимо для:</p>
+		<div class="service-wants__list">
+
+			<div class="service-wants__item row">
+				<div class="grid-12 service-wants__item-title-wrap">
+					<p class="service-wants__item-title h2">Потребителей техники</p>
+				</div>
+				<div class="grid-3 grid-hide_m service-wants__item-number-wrap">
+					<div class="service-wants__item-number">
+						01 -
+					</div>
+				</div>
+				<div class="grid-6 grid-8_m grid-12_s service-wants__item-info-wrap">
+					<div class="service-wants__item-info">
+						<div class="user-content">
+							<p>Это предприятия которые пользуются техникой, они и являются конечными эксплуататорами всего дополнительного оборудования, т.к. они эксплуатируют технику и хотят, чтобы она служила долго и зарабатывала им деньги. Это: лесозаготовительные компании, лесозаводы, горнодобывающие предприятия, химические предприятия, дорожностроительные предприятия, сельхозпроизводители, порты, нефтяные компании, частные лица использующие технику в лесозаготовке и добыче и т.д</p>
+						</div>
+					</div>
+				</div>
+				<div class="grid-3 grid-4_m grid-12_s service-wants__item-img-wrap">
+					<div class="service-wants__item-img">
+						<img src="img/services/wants-1.svg" alt="">
+					</div>
+				</div>
+			</div>
+
+
+			<div class="service-wants__item row">
+				<div class="grid-12 service-wants__item-title-wrap">
+					<p class="service-wants__item-title h2">Производителей техники</p>
+				</div>
+				<div class="grid-3 grid-hide_m service-wants__item-number-wrap">
+					<div class="service-wants__item-number">
+						02 -
+					</div>
+				</div>
+				<div class="grid-6 grid-8_m grid-12_s service-wants__item-info-wrap">
+					<div class="service-wants__item-info">
+						<div class="user-content">
+							<p>Это компании, которые являются производителями техники например Liebherr, Belaz, CAT, John Deere, Komatsu и т.д. Это компании которые в процессе производства хотят установить дополнительное оборудование, чтобы потом эту произведенную технику было легче и быстрее продать. Они будут рекламировать, что у них уже установлен ряд дополнительного оборудования и смогут продать ее быстрей.</p>
+						</div>
+					</div>
+				</div>
+				<div class="grid-3 grid-4_m grid-12_s service-wants__item-img-wrap">
+					<div class="service-wants__item-img">
+						<img src="img/services/wants-2.svg" alt="">
+					</div>
+				</div>
+			</div>
+
+			<div class="service-wants__item row">
+				<div class="grid-12 service-wants__item-title-wrap">
+					<p class="service-wants__item-title h2">Дистрибьюторов техники</p>
+				</div>
+				<div class="grid-3 grid-hide_m service-wants__item-number-wrap">
+					<div class="service-wants__item-number">
+						03 -
+					</div>
+				</div>
+				<div class="grid-6 grid-8_m grid-12_s service-wants__item-info-wrap">
+					<div class="service-wants__item-info">
+						<div class="user-content">
+							<p>Это компании, которые являются дистрибьюторами заводов производителей тяжелой техники например: Zeppelin, Восточная техника, Мантрак Восток, Марубени – это компании которые на территории РФ продают технику CAT. Они участвуют в тендерах на поставку техники для различных компаний и в этих тендерах в задании может быть прописано, что им уже нужна техника с установленными системами пожаротушения, центализованной системой смазки и т.д. тогда эти продавцы техники начинают искать поставщиков дополнительного оборудования и становятся нашими клиентами, они платят нам, чтобы мы все это установили, а затем они продают технику уже потребителю.</p>
+						</div>
+					</div>
+				</div>
+				<div class="grid-3 grid-4_m grid-12_s service-wants__item-img-wrap">
+					<div class="service-wants__item-img">
+						<img src="img/services/wants-3.svg" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
 <section class="service-territory-sec">
 	<div class="service-territory container">
 		<h1 class="h1">Территория нашего распространения</h1>
 		<p class="lead-big">Офисы, склады и сервисные службы есть в Москве, Санкт-Петербурге, Краснодаре, Казани, Екатеринбурге, Чите, Магадане и ещё нескольких городах РФ. И по одному офису - в Беларуссии, Казахстане, Кыргызстане и Узбекистане.</p>
-		<div class="service-territory__map">
-			<a href="#" class="download-link fancy" data-src="#modal-smeta">Коммерческое предложение</a>
-		</div>
+	</div>
+	<div class="service-territory__map">
+		<img src="img/services/bg-map.jpg" alt="">
+		<a href="#" class="download-link download-link--gray fancy" data-src="#modal-smeta">Коммерческое предложение</a>
 	</div>
 </section>
 

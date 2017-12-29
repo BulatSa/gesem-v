@@ -1,6 +1,5 @@
 .service-territory-sec {
 	@extend %paddings;
-	background: url('../img/services/bg-map.jpg') no-repeat center bottom;
 }
 .service-territory {
 	.h1 {
@@ -19,10 +18,20 @@
 }
 
 .service-territory__map {
-	display: flex;
-	align-items: flex-end;
-	justify-content: center;
-	height: 700px;
+	display: block;
+	margin: 0 auto;
 	text-align: center;
-
+	.download-link {
+		position: relative;
+		bottom: 90px;
+		@include res(s) {
+			bottom: 0px;
+		}
+	}
+	img {
+		position: relative;
+		display: block;
+		max-width: 100%;
+		margin: 0 auto;
+	}
 }

@@ -74,3 +74,62 @@ button::-moz-focus-inner {
 		border-color: #000;
 	}
 }
+
+.download-link{
+	position: relative;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	background: transparent;
+	color: #FFF;
+	display: inline-block;
+	line-height: 1;
+	padding: 24px 20px 24px 70px;
+	border: 1px solid #FFF;
+	border-radius: 40px;
+	height: 60px;
+	white-space: nowrap;
+	transition: all 0.3s ease;
+	@include res(s){
+		padding: 15px 20px 15px 50px;
+		height: 42px;
+	}
+
+	&:before{
+		content: '';
+		height: 60px;
+		width: 60px;
+		position: absolute;
+		border-radius: 50%;
+		background: url("../img/icon-doc.png") center center no-repeat $orange;
+		background-size: 22px 26px;
+		left: -1px;
+		top: -1px;
+		@include res(s){
+			height: 42px;
+			width: 42px;
+		}
+	}
+
+	&:hover{
+		border-color: $orange;
+		background: $orange;
+		color: #FFF;
+	}
+
+	&--small{
+		padding: 15px 20px 15px 50px;
+		height: 42px;
+
+		&:before{
+			height: 42px;
+			width: 42px;
+		}
+	}
+
+	&--gray {
+		border-color: #e6e6e6;
+		color: #000;
+		background: #fff;
+	}
+}

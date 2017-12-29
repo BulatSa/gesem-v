@@ -26,6 +26,9 @@
 			.grid-off-#{$i}_#{$breakpoint} {
 				margin-left: 1 / 12 * $i * 100%;
 			}
+			.grid-hide_#{$breakpoint} {
+				display: none!important;
+			}
 		}
 	}
 }

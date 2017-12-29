@@ -59,7 +59,7 @@
 		padding-bottom: 15px;
 	}
 	@include res(m) {
-		padding-left: 40px;
+		padding-left: 45px;
 	}
 	@include res(s) {
 		padding-left: 0;
@@ -109,4 +109,11 @@
 
 .faq__item-text {
 	display: none;
+	padding-left: 50px;
+	@include res(m) {
+		padding-left: 45px;
+	}
+	@include res(s) {
+		padding-left: 0;
+	}
 }

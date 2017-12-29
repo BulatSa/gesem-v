@@ -8,7 +8,7 @@
 
 		<div class="home-catalogs">
 			<a href="#" class="home-catalog">
-				<img src="/img/home/1.jpg" alt="1">
+				<img src="/img/home/3.jpg" alt="1">
 				<span>Каталог для сельского хозяйства</span>
 			</a>
 			<a href="#" class="home-catalog">
@@ -16,8 +16,8 @@
 				<span>Каталог карьерной техники</span>
 			</a>
 			<a href="#" class="home-catalog">
-				<img src="/img/home/2.jpg" alt="2">
-				<span>Каталог карьерной техники</span>
+				<img src="/img/home/1.jpg" alt="2">
+				<span>Каталог лесоза&shy;готовительной техники</span>
 			</a>
 		</div>
 		
